@@ -59,9 +59,13 @@ Fontes: `docs/conteudo-site-atual.md`, `docs/doctoralia.md`, `docs/ata-reuniao.m
 9. Profilaxia (limpeza)
 10. Extrações
 
-## 6. Pendências que travam conteúdo
+## 6. Decisões de 04/11 (Fabiano)
+- Mapa de páginas: APROVADO
+- Procedimentos: só os 10 da ata. NÃO incluir os extras do Doctoralia (alinhadores/Invisalign, placa de bruxismo, gengivoplastia, coroas de cerâmica)
+- Horário: segunda a sexta, 09:00 às 19:00
+- Ícones sociais (header/rodapé/contato): Instagram, Facebook, Google Meu Negócio e Doctoralia
+- Perfil Google: https://share.google/ItDjzE6pBWaWPDW2j
+
+## 7. Pendências que travam conteúdo
 - Antes e depois (iCloud) → página Resultados
 - Fotos novas do consultório e retrato da Dra.
-- Avaliações do Google (extrair pelo acesso ao Google Meu Negócio)
-- Horário com dias da semana (site diz só 09:00 às 19:00)
-- Confirmar procedimentos extras do Doctoralia (alinhadores/Invisalign, placa de bruxismo, gengivoplastia, coroas de cerâmica)

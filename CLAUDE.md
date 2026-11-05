@@ -10,12 +10,16 @@ Projeto da Freela In Home. Responder sempre em pt-BR.
 - **Agendamento:** WhatsApp com robô (igual Pereira Oliveira). NÃO usar agendamento do Doctoralia
 - **Avaliações:** Google (5.0, 71) e Doctoralia (200+), exibidas separadas
 - **Serviços:** resumidos em UMA página de procedimentos, abordando um pouco cada um. As páginas longas de captação por procedimento ficam para DEPOIS, quando iniciar o tráfego pago (dezembro). Ela NÃO é especialista em implantodontia: nunca usar "especialista em implantes". Destacar facetas de porcelana e de resina
-- **Formação:** Odontologia UFPR (2000), especialização (2009)
+- **Mapa de páginas (aprovado):** Início, Sobre, Procedimentos (1 página, 10 procedimentos da ata com âncoras; SEM os extras do Doctoralia), Resultados, Blog, Contato, Links (bio). Ver `docs/cruzamento-e-mapa.md`
+- **Horário:** segunda a sexta, 09:00 às 19:00
+- **Redes (ícones):** Instagram @draanitanogiri, Facebook /consultorioanitanogiri, Google Meu Negócio (https://share.google/ItDjzE6pBWaWPDW2j), Doctoralia
+- **Formação:** Odontologia UFPR (2000), especialista em Dentística Restauradora UFPR (2009), CRO-SC 10010. Atende em português e inglês. Só particular (PIX, cartões, transferência, dinheiro)
+- **Contato:** WhatsApp (48) 99145-0038, tel (48) 3030-0038, anita@anitaodontologia.com.br, Rod. João Paulo, 695, sala 203, João Paulo, Florianópolis/SC, 88030-300
 - **Cores da marca:** `#89c6cc` (turquesa claro, traço do dente) e `#00565d` (petróleo, nome). Assinatura: "Odontologia Integrada"
 - **Logo:** `assets/logo/` (logo-colorido.png, logo-branco.png 250x100; favicon.png 512). Ideal ter SVG exportado do .ai
 - **Blog:** sim, no mesmo modelo do site do Dr. Márcio (`E:\Clientes\Marcio Dermato\site-marciodermato`: `blog/<slug>/index.html` + gerador em `tools/blog`)
-- **Galeria:** fotos atuais em baixa resolução, extrair e melhorar com IA
-- **Logo:** `E:\Clientes\Dra. Anita Nogiri\Logo\logo dra anita.ai`
+- **Galeria:** o site atual não tem foto real de procedimento (placeholders + banco). Fotos reais só do consultório (baixa res, melhorar com IA). Antes e depois virão do iCloud
+- **Logo vetorial:** `E:\Clientes\Dra. Anita Nogiri\Logo\logo dra anita.ai`
 
 ## Stack
 - HTML/CSS/JS estático (mesmo padrão do site do Márcio), sem build obrigatório
@@ -32,5 +36,6 @@ Projeto da Freela In Home. Responder sempre em pt-BR.
 - `assets/` imagens tratadas para o site
 
 ## Estado atual
-- Fase: 1. Descoberta / levantamento de conteúdo
-- Próximo: receber ata, cruzar com conteúdo atual, definir mapa de páginas e design skill
+- Fase: 2. Fim da descoberta (mapa aprovado em 04/11). Extraindo avaliações do Google
+- Próximo: design skill (anita-design) e build da home. Base para apresentação até 10/11
+- Obs.: repo antigo `site-anitaodontologia-travado` ficou corrompido no GitHub (503); recriado. Excluir o travado manualmente
