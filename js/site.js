@@ -4,6 +4,20 @@
   doc.classList.add("js");
   const reduz = matchMedia("(prefers-reduced-motion: reduce)").matches;
 
+  /* ---------- botões: texto que rola + luz que segue o cursor ---------- */
+  document.querySelectorAll(".btn > span:not(.btn__rotulo)").forEach((s) => {
+    const t = s.textContent.trim();
+    s.className = "btn__rotulo";
+    s.innerHTML = `<span class="btn__rolo" data-t="${t.replace(/"/g, "&quot;")}">${t}</span>`;
+  });
+  document.querySelectorAll(".btn, .wa-flutuante").forEach((b) => {
+    b.addEventListener("pointermove", (e) => {
+      const r = b.getBoundingClientRect();
+      b.style.setProperty("--x", `${e.clientX - r.left}px`);
+      b.style.setProperty("--y", `${e.clientY - r.top}px`);
+    });
+  });
+
   /* ---------- página ativa no menu ---------- */
   const pagina = document.body.dataset.pagina;
   document.querySelectorAll(`[data-nav="${pagina}"]`).forEach((a) => a.setAttribute("aria-current", "page"));
@@ -136,7 +150,7 @@
   const rodape = document.querySelector("[data-rodape]");
   if (rodape) {
     const ajustaCortina = () => {
-      const cabe = innerWidth >= 1024 && rodape.offsetHeight <= innerHeight - 24;
+      const cabe = innerWidth >= 1024 && rodape.offsetHeight <= innerHeight;
       doc.classList.toggle("rodape-cortina", cabe);
     };
     ajustaCortina();
