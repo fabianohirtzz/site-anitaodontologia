@@ -8,7 +8,8 @@ Projeto da Freela In Home. Responder sempre em pt-BR.
 - **Doctoralia:** https://www.doctoralia.com.br/perfil/anita-nogiri-makowiecky (dados + avaliações)
 - **Ata da reunião:** `docs/ata-reuniao.md` (03/11/2026). Base do site para apresentação até 10/11; tráfego pago a partir de 05/12
 - **Agendamento:** WhatsApp com robô (igual Pereira Oliveira). NÃO usar agendamento do Doctoralia
-- **Avaliações:** Google (5.0, 71) e Doctoralia (200+), exibidas separadas
+- **Avaliações:** exibidas separadas. Google: 4,9 com 36 avaliações (`data/avaliacoes-google.json`; a ata dizia 5.0/71, estava errado). Doctoralia: 5,0 com 232 (`data/avaliacoes.json`). NUNCA exibir as marcadas `suspeita: true` (Marcos Arnoldo com vídeo de riacho; José Aldo 1 estrela)
+- **Imagens IA:** usar `GeminiWrapper` de `E:/Freela In Home/posts-project/vocical/gerador/gemini_wrapper.py` carregando o `.env` de lá (NÃO copiar a chave para este repo público). Script local em `tools/imagens/`. Nunca gerar "paciente" ou "resultado"
 - **Serviços:** resumidos em UMA página de procedimentos, abordando um pouco cada um. As páginas longas de captação por procedimento ficam para DEPOIS, quando iniciar o tráfego pago (dezembro). Ela NÃO é especialista em implantodontia: nunca usar "especialista em implantes". Destacar facetas de porcelana e de resina
 - **Mapa de páginas (aprovado):** Início, Sobre, Procedimentos (1 página, 10 procedimentos da ata com âncoras; SEM os extras do Doctoralia), Resultados, Blog, Contato, Links (bio). Ver `docs/cruzamento-e-mapa.md`
 - **Horário:** segunda a sexta, 09:00 às 19:00
@@ -36,6 +37,9 @@ Projeto da Freela In Home. Responder sempre em pt-BR.
 - `assets/` imagens tratadas para o site
 
 ## Estado atual
-- Fase: 2. Fim da descoberta (mapa aprovado em 04/11). Extraindo avaliações do Google
-- Próximo: design skill (anita-design) e build da home. Base para apresentação até 10/11
+- Fase: 3. Build. Design skill `anita-design` criada (~/.claude/skills). Home pronta (05/11)
+- Próximo: Sobre, Procedimentos, Resultados, Contato, Blog, Links. Base para apresentação até 10/11
+- Build: header/footer em `partials/` → `python tools/partials.py`; avaliações da home → `python tools/avaliacoes.py`
+- Logo: `assets/logo/logo.svg` (vertical), `logo-horizontal.svg` (menu), `dente.svg` (elemento gráfico), versões brancas. Extraídos do .ai via PyMuPDF
+- Fotos: `assets/img/*.webp`. Upscale fiel via Fal ESRGAN (`tools/imagens/upscale.py`). Gemini e OpenAI do gerador da Vocical estão SEM crédito (05/11)
 - Obs.: repo antigo `site-anitaodontologia-travado` ficou corrompido no GitHub (503); recriado. Excluir o travado manualmente

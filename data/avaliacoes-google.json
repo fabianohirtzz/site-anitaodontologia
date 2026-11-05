@@ -1,0 +1,459 @@
+{
+  "perfil_url": "https://www.google.com/maps/place/Dra+Anita+Nogiri+Makowiecky+Odontologia+Integrada/@-27.5665829,-48.5158609,17z/data=!4m6!3m5!1s0x952738865a7a9ba7:0xb3068c880e0b6fa3!8m2!3d-27.5665829!4d-48.5158609!16s%2Fg%2F11g8ykdmb0",
+  "perfil_url_cid": "https://www.google.com/maps?cid=12900152698628435875",
+  "place_id": "ChIJp5t6WoY4J5URo28LDoiMBrM",
+  "cid": "12900152698628435875",
+  "feature_id": "0x952738865a7a9ba7:0xb3068c880e0b6fa3",
+  "kgmid": "/g/11g8ykdmb0",
+  "escrever_avaliacao_url": "https://search.google.com/local/writereview?placeid=ChIJp5t6WoY4J5URo28LDoiMBrM",
+  "nome_perfil": "Dra Anita Nogiri Makowiecky Odontologia Integrada",
+  "nota": 4.9,
+  "total": 36,
+  "extraido_em": "2026-11-04",
+  "ordenacao": "Mais recentes",
+  "avaliacoes": [
+    {
+      "autor": "Baiantina - Baiana & Argentina",
+      "data_relativa": "um dia atrás",
+      "data_aprox": "2026-11-03",
+      "nota": 5,
+      "texto": "Tive um atendimento muito completo, fico feliz de ter encontrado a dentista Anita Nogiri e todos os procedimentos feitos foram excelentes. Obrigada à Sandra, a auxiliar da Dentista e muito obrigada a própria dentista pelo trabalho exemplar! :)",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google",
+      "selo_novo": true
+    },
+    {
+      "autor": "Clarissa SP",
+      "data_relativa": "5 dias atrás",
+      "data_aprox": "2026-10-30",
+      "nota": 5,
+      "texto": "Dra. Anita cuida de quase todos da família e cada um de nós tem um agradecimento especial a lhe dar. Recomendamos fortemente a profissional impecável que ela é e aproveitamos esse espaço para ajudar você a fazer a escolha certa!",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google",
+      "selo_novo": true
+    },
+    {
+      "autor": "angela santinho",
+      "data_relativa": "5 dias atrás",
+      "data_aprox": "2026-10-30",
+      "nota": 5,
+      "texto": "Adorei o tratamento realizado pela doutora Anita. Muito prestativa, simpática e acolhedora. Recomendo a profissional.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google",
+      "selo_novo": true
+    },
+    {
+      "autor": "Ana Alice",
+      "data_relativa": "5 dias atrás",
+      "data_aprox": "2026-10-30",
+      "nota": 5,
+      "texto": "Atendimento nota 10 ,um trabalho excelente, recomendo o trabalho dela.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google",
+      "selo_novo": true
+    },
+    {
+      "autor": "Ricardo de Gouvea",
+      "data_relativa": "6 dias atrás",
+      "data_aprox": "2026-10-29",
+      "nota": 5,
+      "texto": "Muita cordialidade, e excelente trabalho técnico .",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google",
+      "selo_novo": true
+    },
+    {
+      "autor": "Fica Cãomigo",
+      "data_relativa": "6 dias atrás",
+      "data_aprox": "2026-10-29",
+      "nota": 5,
+      "texto": "",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google",
+      "selo_novo": true
+    },
+    {
+      "autor": "Marcos Arnoldo",
+      "data_relativa": "5 meses atrás",
+      "data_aprox": "2026-06",
+      "nota": 5,
+      "texto": "Este é o meu chodo",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": true,
+      "fonte": "Google",
+      "midia": "1 vídeo anexado (miniatura: riacho/água com vegetação), sem relação com odontologia",
+      "suspeita_motivo": "Única avaliação 5 estrelas com vídeo; texto e vídeo irrelevantes (\"Este é o meu chodo\"). Provável avaliação que a cliente descreveu."
+    },
+    {
+      "autor": "José Aldo De souza",
+      "data_relativa": "6 meses atrás",
+      "data_aprox": "2026-05",
+      "nota": 1,
+      "texto": "",
+      "resposta_proprietario": {
+        "tem": true,
+        "texto": "Olá, Sr José Aldo. Gostaríamos de entender sua insatisfação uma vez que nunca nos contactou e nunca foi atendido pela Dra Anita.",
+        "data_relativa": "6 meses atrás"
+      },
+      "suspeita": true,
+      "fonte": "Google",
+      "suspeita_motivo": "Autor José Aldo De souza: nota 1, sem texto e sem vídeo. A própria proprietária respondeu que ele nunca foi atendido. Contraditório com a descrição da cliente (5 estrelas + vídeo) — confirmar com ela qual denunciar."
+    },
+    {
+      "autor": "Maria Cristina Beck Pombo",
+      "data_relativa": "11 meses atrás",
+      "data_aprox": "2025-12",
+      "nota": 5,
+      "texto": "Excelente profissional",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Priscila B",
+      "data_relativa": "um ano atrás",
+      "data_aprox": "2025",
+      "nota": 5,
+      "texto": "Ótima profissional. Excelente em todos os aspectos, nos procedimentos, no atendimento, no tratamento com o paciente",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Igor Borgio",
+      "data_relativa": "um ano atrás",
+      "data_aprox": "2025",
+      "nota": 5,
+      "texto": "O serviço prestado é excelente e a Dra. é muito cuidadosa e explica muito bem o que vai ser feito. O ambiente é agradável e o equipamento é novo",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Nicolle Marchiori",
+      "data_relativa": "um ano atrás",
+      "data_aprox": "2025",
+      "nota": 5,
+      "texto": "",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Nélio Côrte",
+      "data_relativa": "um ano atrás",
+      "data_aprox": "2025",
+      "nota": 5,
+      "texto": "Excelente profissional, muito atenciosa e dedicada em buscar a melhor solução para cada situação!",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Sidnei Jose da Silva",
+      "data_relativa": "um ano atrás",
+      "data_aprox": "2025",
+      "nota": 5,
+      "texto": "Competente e atenciosa nas necessidades.\nEstou muito satisfeito.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Jéssica Veiga",
+      "data_relativa": "um ano atrás",
+      "data_aprox": "2025",
+      "nota": 5,
+      "texto": "Maravilhosa! Será minha dentista pelos próximos anos!",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "fatima seguro da rocha",
+      "data_relativa": "2 anos atrás",
+      "data_aprox": "2024",
+      "nota": 5,
+      "texto": "",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Bruno dos Santos Alves",
+      "data_relativa": "2 anos atrás",
+      "data_aprox": "2024",
+      "nota": 5,
+      "texto": "Otimo atendimeto , excelente profissional a Dra. Anita, Recomendo!",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Bruno Rodrigues",
+      "data_relativa": "2 anos atrás",
+      "data_aprox": "2024",
+      "nota": 5,
+      "texto": "Profissional bastante competente, e que esclarece as dúvidas do paciente. Super recomendo.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Andreia Zanella",
+      "data_relativa": "2 anos atrás",
+      "data_aprox": "2024",
+      "nota": 5,
+      "texto": "Sempre fui muito bem atendida pela dra. Anita e equipe. Ótimo serviço e pontualidade.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "jose ortiga",
+      "data_relativa": "2 anos atrás",
+      "data_aprox": "2024",
+      "nota": 5,
+      "texto": "Um lugar especial, atendimento sem igual, atendimento sem dor.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Leandro Vieira",
+      "data_relativa": "2 anos atrás",
+      "data_aprox": "2024",
+      "nota": 5,
+      "texto": "A Dra. Anita é excelente profissional! Além de simpática e didática, tem o consultório moderno e com fácil acesso.\nRecomendo totalmente!",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Pedro Vitor",
+      "data_relativa": "2 anos atrás",
+      "data_aprox": "2024",
+      "nota": 5,
+      "texto": "Tive um ótimo atendimento com a Dra. Anita, boas explicações sobre meus procedimentos necessários, bem como, explicou coisas que eu não sabia. Foi bem atenciosa, além de ter mostrado um excelente conhecimento da área!",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Joao Xabregas",
+      "data_relativa": "2 anos atrás",
+      "data_aprox": "2024",
+      "nota": 5,
+      "texto": "Atendimento muito competente e excepcional.\nResposta pronta para o meu atendimento de urgência já no limite do horário.\nMuito obrigado Dra. Anita.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Maristela Kremer",
+      "data_relativa": "2 anos atrás",
+      "data_aprox": "2024",
+      "nota": 5,
+      "texto": "",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "maria do carmo Feller",
+      "data_relativa": "3 anos atrás",
+      "data_aprox": "2023",
+      "nota": 5,
+      "texto": "Excelente proficional,fiz todo meu tratamento dentário com ela e fiquei muito feliz, ficou perfeito. Indico mil vezes. Obrigado Dr. Anita.🥰🥰",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "ALMIRO FREIRE",
+      "data_relativa": "3 anos atrás",
+      "data_aprox": "2023",
+      "nota": 5,
+      "texto": "Muito bem atendido",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Adhemar Valle Filho",
+      "data_relativa": "3 anos atrás",
+      "data_aprox": "2023",
+      "nota": 5,
+      "texto": "Muito atenciosa e realiza o procedimento com cuidado e muita eficiência.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "daniela de souza",
+      "data_relativa": "3 anos atrás",
+      "data_aprox": "2023",
+      "nota": 5,
+      "texto": "Muito atenciosa! Sou paciente a mais de 7 anos ! Moro longe do consultório mas amo o atendimento dela ! Local agradável e de fácil acesso!",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Suelen Duarte Germano",
+      "data_relativa": "3 anos atrás",
+      "data_aprox": "2023",
+      "nota": 5,
+      "texto": "Sempre excelente no atendimento e nos procedimentos. Muito clara nas explicações, oferece um ambiente lindo e organizado. Recomendo de olhos fechados e boca aberta 😅😝",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Franklin Lindolf Bloedorn",
+      "data_relativa": "3 anos atrás",
+      "data_aprox": "2023",
+      "nota": 5,
+      "texto": "Dra Anita é uma excelente profissional. Inovadora na utilização de tecnologias, permitindo ao paciente compreender claramente a proposta terapêutica. Muito atenciosa e cuidadosa durante todo o procedimento.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Luiz Sebastiao",
+      "data_relativa": "3 anos atrás",
+      "data_aprox": "2023",
+      "nota": 5,
+      "texto": "",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Daniela Nakamura",
+      "data_relativa": "6 anos atrás",
+      "data_aprox": "2020",
+      "nota": 5,
+      "texto": "Ótimo atendimento, consultório super aconchegante (trilha musical gostosíssima). A Dra. Anita é super atenciosa e cautelosa, explica todo o procedimento e o tratamento. Preço justo e condições facilitadas de pagamento. Localização com estacionamento próprio e com vagas ao redor também.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Silvana mary gonçalves fenner",
+      "data_relativa": "7 anos atrás",
+      "data_aprox": "2019",
+      "nota": 5,
+      "texto": "gostaria de agradecer,a genialidade da doutora de se cercar de ótimos profissionais.,através dela conheci sua clinica (vida e sorriso )e me apaixonei pelo lindo trabalho.pelo carinho,respeito,e qualidade profissional!!é para isso que pagamos,más sempre é bom,quando nos sentimos felizes.gratidão.",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Bruxinha de Terror",
+      "data_relativa": "7 anos atrás",
+      "data_aprox": "2019",
+      "nota": 5,
+      "texto": "",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Edson Oliveira",
+      "data_relativa": "7 anos atrás",
+      "data_aprox": "2019",
+      "nota": 5,
+      "texto": "“Ambiente impecável e ótima profissional muito experiente, calma e passa muita confiança. Gostei muito do resultado do meu tratamento estético.”",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    },
+    {
+      "autor": "Tassiana Emanuella",
+      "data_relativa": "8 anos atrás",
+      "data_aprox": "2018",
+      "nota": 5,
+      "texto": "",
+      "resposta_proprietario": {
+        "tem": false
+      },
+      "suspeita": false,
+      "fonte": "Google"
+    }
+  ]
+}
