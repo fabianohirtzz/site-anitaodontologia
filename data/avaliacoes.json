@@ -1,0 +1,2322 @@
+[
+  {
+    "autor": "MD",
+    "data": "2026-10-23",
+    "nota": 5,
+    "texto": "Fui ao dentista porque um dente meu quebrou, infelizmente tive que extrair, a dr Anita fez um ótimo trabalho.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "7352634"
+  },
+  {
+    "autor": "Martha Wallauer",
+    "data": "2026-10-06",
+    "nota": 5,
+    "texto": "Moro em outra cidade.\nTive uma fratura em um dente e precisei de atendimento de emergência.\nDra. Anita foi extremamente atenciosa e profissional no atendimento, resolvendo o problema prontamente!",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "7298964"
+  },
+  {
+    "autor": "Moises pedro",
+    "data": "2026-09-29",
+    "nota": 5,
+    "texto": "Dra anita sempre atenciosa explicando todo procedimento a ser feito.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "7271852"
+  },
+  {
+    "autor": "Matheus",
+    "data": "2026-09-02",
+    "nota": 5,
+    "texto": "Dra Anita é super competente e profissional, nota 10.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "7176746"
+  },
+  {
+    "autor": "Catarina",
+    "data": "2026-08-21",
+    "nota": 5,
+    "texto": "Profissional muito competente, atendeu no horário, explicações detalhadas sobre os problemas.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "7129795"
+  },
+  {
+    "autor": "MLR",
+    "data": "2026-07-09",
+    "nota": 5,
+    "texto": "Excelente profissional. Consultório de última geração , super recomendo",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6962228"
+  },
+  {
+    "autor": "Tathiana C.",
+    "data": "2026-07-09",
+    "nota": 5,
+    "texto": "A Dra Anita é incrível. Muito profissional e metódica, faz uma análise detalhada com o uso de registros fotográficos que nos permitem entender, de fato, a situação dos dentes, sem cobrança adicional por isso; faz parte da avaliação. Isso nos oferece um panorama muito claro de prioridades, que ela explica com clareza, com conhecimento odontológico e médico. Ao mesmo tempo, a Dra Anita é bastante razoável e não \"força\" nenhum tipo de procedimento, e entende que nem sempre conseguimos \"arrumar\" a casa toda. Outra observação, a limpeza que ela faz é excelente e caso seja preciso realizar algum tipo de procedimento cirurgico, ela trabalha com o irmão, que é excelente e vem de Curitiba. Já fiz diferentes tipos de procedimentos, gostei de todos. Indico a todos que conheço: é muito raro encontrar uma dentista tão qualificada.",
+    "fonte": "Doctoralia",
+    "servico": "Outro",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6961511"
+  },
+  {
+    "autor": "MC",
+    "data": "2026-07-07",
+    "nota": 5,
+    "texto": "Drª Anita é ótima, muito objetiva e cuidadosa. Recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6951269"
+  },
+  {
+    "autor": "Gabriel Probst",
+    "data": "2026-07-02",
+    "nota": 5,
+    "texto": "Muito cuidadosa e detalhista. Atendimento bem profissional. Recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6934328"
+  },
+  {
+    "autor": "Carolina Narloch",
+    "data": "2026-07-01",
+    "nota": 5,
+    "texto": "Limpeza muito completa com ótimo atendimento e ambiente",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6930014"
+  },
+  {
+    "autor": "RC",
+    "data": "2026-04-09",
+    "nota": 5,
+    "texto": "Fiz uma limpeza de rotina e a Dra. Anita foi muito atenciosa e eficiente no atendimento. O consultório é moderno com equipamentos de ultima geração. Ela explicou exatamente sobre os procedimentos realizados e próximos passos. Recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Outro",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6647745"
+  },
+  {
+    "autor": "Beatriz Maltempi Monfardine",
+    "data": "2026-03-18",
+    "nota": 5,
+    "texto": "Dra Anita foi muito clara e transparente com a explicação. Muito atenciosa e cuidadosa também",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6567934"
+  },
+  {
+    "autor": "Maria Victoria González",
+    "data": "2026-03-18",
+    "nota": 5,
+    "texto": "A dentista Anita e a secretária Sandra foram muito atenciosas e gentis no meu primeiro atendimento, com certeza continuarei o meu tratamento com ela.",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6566542"
+  },
+  {
+    "autor": "Maria de Fátima Gevaerd",
+    "data": "2026-03-18",
+    "nota": 5,
+    "texto": "Ótima profissional, precisa e bem transparente. Atendimento de qualidade.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6564208"
+  },
+  {
+    "autor": "LS",
+    "data": "2026-02-27",
+    "nota": 5,
+    "texto": "Excelente atendimento! Consultório moderno e aconchegante! Pontualidade!",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6496124"
+  },
+  {
+    "autor": "Andréia Bentes",
+    "data": "2026-02-24",
+    "nota": 5,
+    "texto": "Melhor dentista que já conheci na minha vida, atenciosa , cuidadosa , simpática , calma",
+    "fonte": "Doctoralia",
+    "servico": "Outro",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6478259"
+  },
+  {
+    "autor": "Andréia Maria de Oliveira Costa",
+    "data": "2026-02-12",
+    "nota": 5,
+    "texto": "Excelente profissional! Atenciosa, cautelosa, simpática e muito humana.\nMe senti à vontade e confiante desde a primeira consulta. Super recomendo!",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6452622"
+  },
+  {
+    "autor": "Alice SC",
+    "data": "2026-02-12",
+    "nota": 5,
+    "texto": "Tratamento excepcional. Eu tenho pavor de ir ao dentista, mas a Dra. Anita tem mãos de fada e até dormi na consulta.",
+    "fonte": "Doctoralia",
+    "servico": "Lente de contato dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6451295"
+  },
+  {
+    "autor": "JF",
+    "data": "2026-02-02",
+    "nota": 5,
+    "texto": "Excelente profissional! Me respondeu com clareza todas as dúvidas.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6406741"
+  },
+  {
+    "autor": "E.M.",
+    "data": "2026-01-14",
+    "nota": 5,
+    "texto": "Mãos de veludo . Nota 10 . Muito detalhista e atenciosa.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6331361"
+  },
+  {
+    "autor": "Maria Cristina Beck Pombo",
+    "data": "2025-12-02",
+    "nota": 5,
+    "texto": "Profissional seria, honesta e objetiva e eficiente",
+    "fonte": "Doctoralia",
+    "servico": "Implantes dentários",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6215911"
+  },
+  {
+    "autor": "Nelma Peixoto",
+    "data": "2025-11-19",
+    "nota": 5,
+    "texto": "Excelente profissional. Sem pressa busca a perfeição do seu trabalho.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6169769"
+  },
+  {
+    "autor": "Rsk",
+    "data": "2025-11-04",
+    "nota": 5,
+    "texto": "Excelente. Resolveu meu problema e cárie dentária.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6108405"
+  },
+  {
+    "autor": "Verônica F.  Alves da Silva",
+    "data": "2025-10-08",
+    "nota": 5,
+    "texto": "Além do ótimo acolhimento, por parte da Anita e de sua secretária Sandra, o atendimento superou as minhas expectativas . Todos os detalhes do procedimento foram bem explicados deixando-me a vontade para conversar e sanar algumas dúvidas e, o melhor, sem anestesia e sem dor.",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "6013761"
+  },
+  {
+    "autor": "Pedro Côrte",
+    "data": "2025-08-28",
+    "nota": 5,
+    "texto": "Atendimento muito bom e completo com uma ótima explicação de todos os problemas identificados e o que fazer para resolvê-los.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5862257"
+  },
+  {
+    "autor": "P.B.",
+    "data": "2025-07-22",
+    "nota": 5,
+    "texto": "Eu sempre tive problemas pra ir ao dentista, as experiências anteriores nao tinham sido muito boas mas com a Dra Anita tudo foi diferente, muito paciente, explicando cada processo e etapa me senti super bem e agora ela se tornou minha dentista",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5703304"
+  },
+  {
+    "autor": "Lucas Leal",
+    "data": "2025-07-10",
+    "nota": 5,
+    "texto": "Foi ótimo, ficou muito bom o resultado, recomendo",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5663716"
+  },
+  {
+    "autor": "Angela Micel Santinho",
+    "data": "2025-07-08",
+    "nota": 5,
+    "texto": "Excelente atendimento, bem detalista nas explicações do tratamento e cuidadosa com paciente .Adorei",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5654831"
+  },
+  {
+    "autor": "Emerson José laurindo",
+    "data": "2025-06-19",
+    "nota": 5,
+    "texto": "Excelente profissional e muito atenciosa clinica bem equipada",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5593456"
+  },
+  {
+    "autor": "Fernanda",
+    "data": "2025-06-12",
+    "nota": 5,
+    "texto": "Fazer a limpeza é sempre desafiador pra mim, mas o atendimento e o cuidado da Anita transformam o processo! :)",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5566974"
+  },
+  {
+    "autor": "Pedro Nogueira Santi Clementoni",
+    "data": "2025-06-10",
+    "nota": 5,
+    "texto": "Excelente profissional! Tudo muito organizado e na hora certa.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5558279"
+  },
+  {
+    "autor": "M.W.",
+    "data": "2025-06-05",
+    "nota": 5,
+    "texto": "Excelente profissional! Anita esclareceu todos os detalhes do tratamento (pré, durante e pós), foi assertiva e eficaz.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5539544"
+  },
+  {
+    "autor": "Riani tezza",
+    "data": "2025-06-02",
+    "nota": 5,
+    "texto": "A melhor ! Consultório’s muito moderno, muito interessante o envio das fotos após os tratamentos",
+    "fonte": "Doctoralia",
+    "servico": "Clareamento dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5523195"
+  },
+  {
+    "autor": "Mariza",
+    "data": "2025-05-26",
+    "nota": 5,
+    "texto": "A consulta foi ótima! Aconteceu de forma pontual, com atendimento gentil da recepcionista Dani e em um consultório muito organizado e bem equipado. Dra Anita é muito gentil e atenciosa.",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5498114"
+  },
+  {
+    "autor": "Sergio Tezza",
+    "data": "2025-05-21",
+    "nota": 5,
+    "texto": "Muito bom atendimento, recomendo os ótimos serviços",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5478095"
+  },
+  {
+    "autor": "C.K.",
+    "data": "2025-05-19",
+    "nota": 5,
+    "texto": "O consultório é bem localizado, limpo e moderno. A atuação da profissional é impecável.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5465344"
+  },
+  {
+    "autor": "Vitória F de Amorim",
+    "data": "2025-05-16",
+    "nota": 5,
+    "texto": "Dra. Anita, quero expressar minha gratidão pelo atendimento incrível que recebi. Como tenho ansiedade e medo de dentistas, na encontrar uma profissional como você foi transformador. Você me passou segurança desde o primeiro momento, explicando todos os procedimentos de forma clara e objetiva, o que aliviou muito minha preocupação. Além disso, sua assistente é muito ágil e atenciosa, tornando o atendimento ainda mais dinâmico e tranquilo. O consultório também contribui para essa experiência positiva, já que é moderno, organizado e impecavelmente limpo. Depois de passar por outros dentistas, finalmente me senti acolhida, segura e satisfeita com o cuidado que recebi. Você é, sem dúvida, uma excelente profissional, e recomendo seu trabalho com toda a confiança. Muito obrigada por tudo! (Consulta pré operatória)",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5457538"
+  },
+  {
+    "autor": "M.T.M",
+    "data": "2025-04-08",
+    "nota": 5,
+    "texto": "Consegui resolver uma urgência com um atendimento eficaz e rápido! Obrigada",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5312078"
+  },
+  {
+    "autor": "Rubens Massini",
+    "data": "2025-03-21",
+    "nota": 5,
+    "texto": "Excelente professional\nBem detalhista, esclareceu muito bem as atividades",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5239605"
+  },
+  {
+    "autor": "Ana Paula",
+    "data": "2025-03-19",
+    "nota": 5,
+    "texto": "Atendimento excelente. Profissional muito atenciosa, competente, transmite segurança e conhecimento. Gostei muito e recomendo. Votarei nela com certeza!!!!",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5232836"
+  },
+  {
+    "autor": "Marislei",
+    "data": "2025-02-26",
+    "nota": 5,
+    "texto": "Excelente atendimento, meu filho gostou muito da doutora,foi atenciosa e explicou tudo sem deixar dúvidas.Com certeza retornaremos.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5156970"
+  },
+  {
+    "autor": "Sirlei Lima",
+    "data": "2025-02-20",
+    "nota": 5,
+    "texto": "A Doutora explica muito bem sobre os procedimentos e transmite segurança.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5133538"
+  },
+  {
+    "autor": "Naara",
+    "data": "2025-02-11",
+    "nota": 5,
+    "texto": "Muito boa, competente calma. Consultorio moderno bem equipado.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "5089297"
+  },
+  {
+    "autor": "Silvio Campos",
+    "data": "2025-01-06",
+    "nota": 5,
+    "texto": "Anita sempre excelente no atendimento. Tanto por conseguir um encaixe no meio das férias quanto por seu ótimo trabalho. Nota 10, recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Recontorno estético dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4935955"
+  },
+  {
+    "autor": "Lc",
+    "data": "2024-12-20",
+    "nota": 5,
+    "texto": "Profissional muito atenciosa e detalhista.\nGostei das explicações e atendimento.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4912949"
+  },
+  {
+    "autor": "Juliana Giordano",
+    "data": "2024-12-20",
+    "nota": 5,
+    "texto": "Muito simpática e muito atenciosa ,adorei o atendimento!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4912437"
+  },
+  {
+    "autor": "Rita",
+    "data": "2024-12-13",
+    "nota": 5,
+    "texto": "Ótimo atendimento e no horário marcado,estalacões perfeita.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4888590"
+  },
+  {
+    "autor": "Ana Alice S. Pereira",
+    "data": "2024-12-05",
+    "nota": 5,
+    "texto": "Sou muito grata pelo atendimento, ficou perfeito me sinto segura para minha perfeita mastigação.\nObrigada DRA Anita.\nUma excelente proficional.\nSou grata!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4852177"
+  },
+  {
+    "autor": "Carlos Eduardo",
+    "data": "2024-11-27",
+    "nota": 5,
+    "texto": "Muito bom atendimento! Atendimento na hora e com eficiência.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4821774"
+  },
+  {
+    "autor": "Alana de Santana",
+    "data": "2024-11-20",
+    "nota": 5,
+    "texto": "Foi maravilhosa em tudo ótimo atendimento , muito profissional com seu paciente.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4791462"
+  },
+  {
+    "autor": "Roberto Simon",
+    "data": "2024-10-31",
+    "nota": 5,
+    "texto": "Tem aproximadamente 12 anos que faço meus tratamentos e manutenções com a Dra Anita e posso afirmar que ela é a melhor dentista de Florianópolis com amplo domínio na área de atuação.\nRecomendo fortemente",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4711661"
+  },
+  {
+    "autor": "Rosana de Oliveira Dias",
+    "data": "2024-10-11",
+    "nota": 5,
+    "texto": "Excelente atendimento, tudo com esclarecimento,tira dúvidas explica tudo nota 10 parabéns",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4630962"
+  },
+  {
+    "autor": "Adriana Belardinelli Ramslho",
+    "data": "2024-09-25",
+    "nota": 5,
+    "texto": "Eu gostei muito foi tudo muito tranquilo .Muito obrigada",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4565465"
+  },
+  {
+    "autor": "Claudia",
+    "data": "2024-09-24",
+    "nota": 5,
+    "texto": "Ótima profissional. Gostei muito do atendimento. Não deixou nenhuma dúvida.",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4558987"
+  },
+  {
+    "autor": "Clarissa Pereira",
+    "data": "2024-09-17",
+    "nota": 5,
+    "texto": "Visita feita, limpeza feita! Mais uma vez satisfeita com tudo, do atendimento ao resultado.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4532436"
+  },
+  {
+    "autor": "Livia",
+    "data": "2024-08-30",
+    "nota": 5,
+    "texto": "Excelente profissional. Consultório moderno e com protocolo atualizado.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4466405"
+  },
+  {
+    "autor": "Rosangela",
+    "data": "2024-08-28",
+    "nota": 4,
+    "texto": "Agradeço foi tudo muito tranquilo. Bem explicado.tratamento bem atencioso e bem cuidadoso.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4459329"
+  },
+  {
+    "autor": "Victória Ferreira",
+    "data": "2024-08-19",
+    "nota": 5,
+    "texto": "A dentista Anita é sempre muito atenciosa e explicativa no tratamento, assim como realiza o possível para minimizar o desconforto do tratamento",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4420930"
+  },
+  {
+    "autor": "Leticia Linhares",
+    "data": "2024-08-14",
+    "nota": 5,
+    "texto": "Excelente profissional, transmite confianca e\nmuito cuidadosa nos procedimentos.\nConsultório sempre impecável",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4403449"
+  },
+  {
+    "autor": "Victoria",
+    "data": "2024-07-25",
+    "nota": 5,
+    "texto": "Atendimento excelente, recomendo para todos a Dra. Anita",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4332336"
+  },
+  {
+    "autor": "Leticia",
+    "data": "2024-07-04",
+    "nota": 5,
+    "texto": "A consulta começou exatamente na hora marcada. A dentista é muito atenciosa e manteve contato para saber da melhora. Amei",
+    "fonte": "Doctoralia",
+    "servico": "Emergencia em Endodontia",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4256156"
+  },
+  {
+    "autor": "Gabriela de Oliveira Guedes Mattos",
+    "data": "2024-06-18",
+    "nota": 5,
+    "texto": "Ótima profissional, pontual, atenciosa, acessível, explica tudo com muita paciência e linguagem clara.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4199023"
+  },
+  {
+    "autor": "Arnaldo",
+    "data": "2024-06-06",
+    "nota": 5,
+    "texto": "Excelente profissional,atendimento eficiente com valores super corretos",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4159584"
+  },
+  {
+    "autor": "Nélio Côrte",
+    "data": "2024-05-18",
+    "nota": 5,
+    "texto": "Profissionalismo exemplar e atendimento muito cordial!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4090847"
+  },
+  {
+    "autor": "Jane",
+    "data": "2024-05-15",
+    "nota": 5,
+    "texto": "Profissional de primeira, super indicou. Dra Anita è atenciosa e sabe o que está fazendo sempre.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4075282"
+  },
+  {
+    "autor": "Priscila Custodio Mata da Silva",
+    "data": "2024-04-25",
+    "nota": 5,
+    "texto": "Excelente atendimento e boa explicação dos procedimentos a serem feitos",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "4004104"
+  },
+  {
+    "autor": "Leonardo Guedes Duarte",
+    "data": "2024-04-23",
+    "nota": 5,
+    "texto": "O atendimento foi excelente. A doutora foi muito atenciosa. É delicada e sempre explicava todas etapas.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3997696"
+  },
+  {
+    "autor": "Sidnei José da Silva",
+    "data": "2024-04-03",
+    "nota": 5,
+    "texto": "O diferencial é a confiança e a preocupação da saúde bocal como um todo.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3914234"
+  },
+  {
+    "autor": "Stelio",
+    "data": "2024-04-01",
+    "nota": 5,
+    "texto": "Ótimo atendimento, serviço de excelente qualidade.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3906482"
+  },
+  {
+    "autor": "Rosane Marchiori Kangussu",
+    "data": "2024-03-21",
+    "nota": 5,
+    "texto": "Atendimento super atencioso, local relaxante, claro, limpo e agradável. A Dra. Anita transmite muita segurança. Profissional que nos dá opções de tratamento, opiniões seguras, transmitindo muita confiança. Gostei muito.",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3873766"
+  },
+  {
+    "autor": "Michele Paola Kerschner",
+    "data": "2024-03-18",
+    "nota": 5,
+    "texto": "Ótima profissional. Muito atenciosa e executa os procedimentos necessários com maestria.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3857445"
+  },
+  {
+    "autor": "Maiara Nuzzi",
+    "data": "2024-03-15",
+    "nota": 5,
+    "texto": "Ótima profissional, explica todo procedimento de forma clara e tem uma mão ótimo.",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3847388"
+  },
+  {
+    "autor": "Renata Nagao",
+    "data": "2024-02-08",
+    "nota": 5,
+    "texto": "Excelente atendimento! Avaliação detalhada. Realuza os procedimentos com muita competência e segurança",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3724528"
+  },
+  {
+    "autor": "Carlos",
+    "data": "2024-01-30",
+    "nota": 5,
+    "texto": "A consulta foi muito boa, a doutora foi bem cordial e detalhava a cada momento os próximos passos do tratamento.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3682956"
+  },
+  {
+    "autor": "Dheison Moacir de liz miranda",
+    "data": "2024-01-24",
+    "nota": 5,
+    "texto": "Muito bem explicado a situação, ótimo atendimento.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3658620"
+  },
+  {
+    "autor": "Barbara",
+    "data": "2024-01-12",
+    "nota": 5,
+    "texto": "Já vou na Dra Anita a anos, ela é a melhor! super caprichosa.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3613762"
+  },
+  {
+    "autor": "Leandro Vieira",
+    "data": "2023-12-12",
+    "nota": 5,
+    "texto": "A Anita é excelente profissional, além de simpática e didática nas explicações.\nO consultório é de fácil acesso, confortável e devidamente higienizado.\nRecomendo!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3531131"
+  },
+  {
+    "autor": "André BERRI",
+    "data": "2023-12-07",
+    "nota": 5,
+    "texto": "Profissional competente, clara e pontual. Ambiente agradável.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3512216"
+  },
+  {
+    "autor": "Maria Julia",
+    "data": "2023-12-01",
+    "nota": 5,
+    "texto": "Profissional extremamente competente, sensata, clara ao explicar sobre o caso e tratamento.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3492588"
+  },
+  {
+    "autor": "Elaine Coelho",
+    "data": "2023-11-13",
+    "nota": 5,
+    "texto": "Excelente profissional.\nExplica tudo, ótimo trabalho.\nPreço justo.\nViramos pacientes",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3424600"
+  },
+  {
+    "autor": "Beatriz",
+    "data": "2023-11-09",
+    "nota": 5,
+    "texto": "Ótimo atendimento! Muito atenciosa e cuidadadosa, como sempre.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3413066"
+  },
+  {
+    "autor": "Dalton",
+    "data": "2023-11-08",
+    "nota": 5,
+    "texto": "A Dra. Anita é uma profissional muito competente, entende do que faz, realiza um trabalho de extrema qualidade e tem bastante experiência. Até que ela pare de atender continuará sendo a minha dentista sem nenhuma dúvida!",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "3402526"
+  },
+  {
+    "autor": "Luciano Cysne",
+    "data": "2023-10-23",
+    "nota": 5,
+    "texto": "Excelente profissional. Explica todo o procedimento e propõe de forma bem didática, as soluções para alguns problemas encontrados.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3349151"
+  },
+  {
+    "autor": "Bruno Rodrigues",
+    "data": "2023-10-17",
+    "nota": 5,
+    "texto": "Profilaxia dental muito bem executada. Profissional competente, mostra de imagens e bem esclarecedora. Super recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3323015"
+  },
+  {
+    "autor": "Guilhermi Cavalin",
+    "data": "2023-09-13",
+    "nota": 5,
+    "texto": "Nunca fui tratado tão bem na vida, nem pelos meus pais, me senti em casa, a Dr. foi super atenciosa e sua auxiliar também, pretendo voltar mais vezes!",
+    "fonte": "Doctoralia",
+    "servico": "Emergencia em Endodontia",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3219532"
+  },
+  {
+    "autor": "Gustavo",
+    "data": "2023-09-12",
+    "nota": 5,
+    "texto": "Consultório muito bem equipado. A doutora é muito profissional e atenciosa.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3211741"
+  },
+  {
+    "autor": "Rodolfo",
+    "data": "2023-09-12",
+    "nota": 5,
+    "texto": "A Dra Anita é muito atenciosa e uma excelente profissional.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3210040"
+  },
+  {
+    "autor": "Mayra",
+    "data": "2023-08-31",
+    "nota": 5,
+    "texto": "A Dra explica tudo detalhadamente com muita riqueza de detalhes e sinceridade, equipamentos modernos e consultório atualizado, realmente muito satisfeita e com certeza voltarei.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3180453"
+  },
+  {
+    "autor": "Paulo Henrique",
+    "data": "2023-08-30",
+    "nota": 5,
+    "texto": "A Dra. Anita é bastante atenciosa. Explica bem detalhadamente o tratamento e as necessidades do paciente. É rápida e cuidadosa na execução do procedimento, evitando a dor na medida do possível.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3174404"
+  },
+  {
+    "autor": "Paciente",
+    "data": "2023-08-30",
+    "nota": 5,
+    "texto": "Atendimento excelente. Procedimentos bem explicados.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3174364"
+  },
+  {
+    "autor": "Roulien Vieira",
+    "data": "2023-08-24",
+    "nota": 5,
+    "texto": "Foi muito atenciosa, explicando todos as etapas do tratamento e cuidadosa durante o procedimento.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3158672"
+  },
+  {
+    "autor": "Solange W. Zibetti",
+    "data": "2023-08-21",
+    "nota": 5,
+    "texto": "A dra tem conhecimento, técnica necessaria para o desempenho da função e um amigável relacionamento. Ótimo atendimento.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3143738"
+  },
+  {
+    "autor": "João Pedro Pereira da Silva",
+    "data": "2023-08-07",
+    "nota": 5,
+    "texto": "Excelente atendimento, a melhor dentista que eu fui até hoje.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3094858"
+  },
+  {
+    "autor": "Paciente",
+    "data": "2023-07-28",
+    "nota": 5,
+    "texto": "Excelente profissional, atenciosa e muito atualizada.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3065081"
+  },
+  {
+    "autor": "Angela",
+    "data": "2023-07-26",
+    "nota": 5,
+    "texto": "Consultório bem equipado, moderno e e com estacionamento.\nMe senti bastante segura e confiante.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3052409"
+  },
+  {
+    "autor": "Rita de Cássia Martins",
+    "data": "2023-07-06",
+    "nota": 5,
+    "texto": "Fiquei muito satisfeita com o atendimento e competência da Dra Anita. Indicarei p quem precisar de uma excelente dentista.",
+    "fonte": "Doctoralia",
+    "servico": "Extracao",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "3003949"
+  },
+  {
+    "autor": "Alexandre",
+    "data": "2023-07-04",
+    "nota": 5,
+    "texto": "Atenciosa e muito detalhista nas explicações e no trabalho realizado.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2993128"
+  },
+  {
+    "autor": "Paula Bueno da Rosa",
+    "data": "2023-06-29",
+    "nota": 5,
+    "texto": "Profissional excelente que entrega um trabalho atencioso, muito competente, com comunicação acessível e afetuosa. O espaço é muito aconchegante, altamente higiênico e muito bonito.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2980278"
+  },
+  {
+    "autor": "Luciane Beatriz Sulzbach",
+    "data": "2023-06-26",
+    "nota": 5,
+    "texto": "Ótima profissional, atenciosa e detalhista. Sempre atende no horário previsto.",
+    "fonte": "Doctoralia",
+    "servico": "Extração do siso",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2964723"
+  },
+  {
+    "autor": "Bruno",
+    "data": "2023-06-20",
+    "nota": 5,
+    "texto": "Sou sempre muito bem atendido, excelente profissional.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2943730"
+  },
+  {
+    "autor": "Rheno Marcel de Oliveira",
+    "data": "2023-06-07",
+    "nota": 5,
+    "texto": "Profissional que conhece e sabe do que está falando, perfeita no atendimento.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2907531"
+  },
+  {
+    "autor": "Luiza Cristina Kreff",
+    "data": "2023-06-06",
+    "nota": 5,
+    "texto": "Excelente profissional!!!! Indico para os colegas!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2903088"
+  },
+  {
+    "autor": "ANITA  RICCI  SCHUTZ DE MEDEIROS",
+    "data": "2023-05-17",
+    "nota": 5,
+    "texto": "Dra Anita foi muito gentil , é competente, explicou tudo com toda atenção que o caso exige. Só tenho a agradecer.",
+    "fonte": "Doctoralia",
+    "servico": "Avaliação Ortodontia",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2835978"
+  },
+  {
+    "autor": "Paciente",
+    "data": "2023-05-03",
+    "nota": 5,
+    "texto": "Sempre muito atenciosa, prestativa, excelente profissional!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2788205"
+  },
+  {
+    "autor": "Alexandre Reis",
+    "data": "2023-04-10",
+    "nota": 5,
+    "texto": "Dra. Anita é muito atenciosa e excelente profissional, muito pontual e o consultório é ótimo, além de muito bem localizado.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2715654"
+  },
+  {
+    "autor": "Paciente",
+    "data": "2023-03-16",
+    "nota": 5,
+    "texto": "Excelente dentista,atenciosa e muito querida.\nConsultório sempre limpo e impecável.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2640759"
+  },
+  {
+    "autor": "Larissa Schnekenberg",
+    "data": "2023-03-16",
+    "nota": 5,
+    "texto": "Confesso que tinha trauma de dentista e a Dra Anita tirou totalmente. Tratamento impecável, melhor limpeza da vida e fechei meus diastemas, ficou perfeito. Parabéns pelo trabalho. Voltarei certamente e regularmente.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2639217"
+  },
+  {
+    "autor": "Deisy Porto",
+    "data": "2023-03-15",
+    "nota": 5,
+    "texto": "Anita é cuidadosa, pontual e faz um trabalho impecável. Recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2633828"
+  },
+  {
+    "autor": "Pedro Costa",
+    "data": "2023-03-07",
+    "nota": 5,
+    "texto": "Muito atenciosa, cuidadosa e paciente! Sempre tive dificuldade de ir ao dentista por medo e agradeço ao atendimento com muita destreza e que nos tranquiliza do início ao fim. Obrigado!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2606673"
+  },
+  {
+    "autor": "Elizabete Cavalieri",
+    "data": "2022-11-12",
+    "nota": 5,
+    "texto": "Fui muito bem atendida e recebi todas as explicações para a análise da minha situação.\nFoi minha primeira consulta.",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2343956"
+  },
+  {
+    "autor": "Bruno Bresciani",
+    "data": "2022-10-24",
+    "nota": 5,
+    "texto": "Ahh, eu adorei. A secretaria é simpática, querida assim como a doutora, lugar lindo. Sem dúvidas irei retornar.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2301858"
+  },
+  {
+    "autor": "Annita Maria",
+    "data": "2022-10-05",
+    "nota": 5,
+    "texto": "Super atenciosa. Explica bem e o local é ótimo e super limpo. Tem muita tecnologia para atender. Adorei.",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2263110"
+  },
+  {
+    "autor": "Felipe",
+    "data": "2022-09-26",
+    "nota": 5,
+    "texto": "Sem palavras, voltei a ter orgulho do meu sorriso, muito cuidadosa, tira todas as dúvidas, faz tudo com muita calma e dedicação",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2240127"
+  },
+  {
+    "autor": "Mariana Musso",
+    "data": "2022-09-08",
+    "nota": 5,
+    "texto": "O que mais dizer... apenas reafirmar o quão maravilhosa é esta profissional. Pontual, perfeccionista, gentil, \"leveza nas mãos\"... ouso declarar que deve ser uma apaixonada pela profissão.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2202749"
+  },
+  {
+    "autor": "Vanessa dos Santos",
+    "data": "2022-08-04",
+    "nota": 5,
+    "texto": "Atenciosa com o paciente e bastante acessível. Atendeu minhas necessidades prontamente. Tratamento eficiente. Super recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Retorno",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2121118"
+  },
+  {
+    "autor": "Ricardo",
+    "data": "2022-07-25",
+    "nota": 5,
+    "texto": "Excelente profissional e serenidade no atendimento , com muita atenção e detalhando o procedimento ,",
+    "fonte": "Doctoralia",
+    "servico": "Extração do siso",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2092439"
+  },
+  {
+    "autor": "Raquel",
+    "data": "2022-07-06",
+    "nota": 5,
+    "texto": "Atendimento impecável, todos os procedimentos bem explicados.\nAmei o atendimento",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "2051766"
+  },
+  {
+    "autor": "Camila Santos",
+    "data": "2022-05-25",
+    "nota": 5,
+    "texto": "Fui muito bem atendida.\nPontualidade atenção, carismática. Ótima profissional .Esclareceu com tranquilidade o tratamento .",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1963386"
+  },
+  {
+    "autor": "Bruna",
+    "data": "2022-05-25",
+    "nota": 5,
+    "texto": "Excelente profissional! Muito competente, cuidadosa e atenciosa.O consultório é muito bem localizado e organizado",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1962983"
+  },
+  {
+    "autor": "Jonas",
+    "data": "2022-05-18",
+    "nota": 5,
+    "texto": "Profissional altamente capacitada, consultório impecável e extremamente pontual, valeu cada centavo investido.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1947894"
+  },
+  {
+    "autor": "Aparecida",
+    "data": "2022-04-25",
+    "nota": 5,
+    "texto": "Atenciosa, explica detalhadamente cada procedimento, pontual, consultório ultra moderno, organizado e super limpo.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1896235"
+  },
+  {
+    "autor": "Felipe Suplicy",
+    "data": "2022-04-06",
+    "nota": 5,
+    "texto": "Excelente atendimento e serviço! Pontualidade, qualidade e preços condizentes com os tratamentos. Recomendo!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1862016"
+  },
+  {
+    "autor": "Euri",
+    "data": "2022-03-31",
+    "nota": 5,
+    "texto": "Fiz uma consulta de rotina.\nÓtima profissional, muito atenciosa, competente.\nIndico com toda certeza",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1851208"
+  },
+  {
+    "autor": "Marlan da Silva",
+    "data": "2022-03-15",
+    "nota": 5,
+    "texto": "Atendimento excelente com ótima profissional, explicações completas e de fácil entendimento. Adorei!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1810267"
+  },
+  {
+    "autor": "Paulo domingos Pereira filho",
+    "data": "2022-03-07",
+    "nota": 5,
+    "texto": "Eu recomendo a Dr Anita.\nPassa segurança e confiança é só faz aquilo que é realmente necessário.\nFui atendido no horário e já marquei a próxima consulta.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "1796696"
+  },
+  {
+    "autor": "Cristina",
+    "data": "2022-03-03",
+    "nota": 5,
+    "texto": "Excelente como sempre! Sempre atenciosa e muito cuidadosa. Perfeccionista e competente. Justa nos valores e sensata nos diagnósticos terapêuticos.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "1792833"
+  },
+  {
+    "autor": "Franklin Lindolf Bloedorn",
+    "data": "2022-03-03",
+    "nota": 5,
+    "texto": "Excelente profissional. Atenciosa, cuidadosa e muito acertiva em suas abordagens terapêuticas. Faz uso de tecnologia computacional que permite comparação do antes e pós tratamento. Consultório moderno.",
+    "fonte": "Doctoralia",
+    "servico": "Outro",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "1792781"
+  },
+  {
+    "autor": "Jessica",
+    "data": "2022-01-31",
+    "nota": 5,
+    "texto": "Excelente atendimento! Gostamos muito da Dra. Anita, nos passou confiança nas consultas e no tratamento. Recomendo!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1746437"
+  },
+  {
+    "autor": "Éverton da Costa Vieira",
+    "data": "2022-01-17",
+    "nota": 5,
+    "texto": "Excelente qualidade no atendimento com consultório impecável e horário britânico sendo sempre bem humorada. Parabéns",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1714794"
+  },
+  {
+    "autor": "Bárbara Thibes",
+    "data": "2022-01-11",
+    "nota": 5,
+    "texto": "Sempre atenciosa e profissional. Limpeza do consultório impecável. Preço justo. Atende a mim e meus filhos com maestria.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1703029"
+  },
+  {
+    "autor": "Nádia Prado",
+    "data": "2021-12-14",
+    "nota": 5,
+    "texto": "Muito difícil realizar um procedimento quando não se conhece o profissional. Saí feliz. Houve um ótimo atendimento",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1664992"
+  },
+  {
+    "autor": "Rodrigo",
+    "data": "2021-12-09",
+    "nota": 5,
+    "texto": "Profissional e ambiente qualificado.\nExplica os procedimentos com clareza.\nTransmite confiança e profissionalismo.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1656927"
+  },
+  {
+    "autor": "Amanda",
+    "data": "2021-12-01",
+    "nota": 5,
+    "texto": "Fiz uma limpeza, adorei o resultado! Recomendo!! A doutora Anita foi super atenciosa nas explicações, e superou minhas expectativas!",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1639529"
+  },
+  {
+    "autor": "Eduardo Miranda",
+    "data": "2021-11-23",
+    "nota": 5,
+    "texto": "Profissional inteligente e atualizada.\nAtendimento objetivo e eficaz.\nIndico os serviços prestados pela Dra. Anita.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1621986"
+  },
+  {
+    "autor": "Suelen Duarte",
+    "data": "2021-11-05",
+    "nota": 5,
+    "texto": "Impecável, me deixou de boa aberta Profissional perfeccionista, atenciosamente atenciosa demais e muito cuidadosa. Melhor experiência com dentista, super recomendo. Obrigada por devolver meu sorriso e minha auto estima.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1588339"
+  },
+  {
+    "autor": "Sandra",
+    "data": "2021-10-06",
+    "nota": 5,
+    "texto": "Anita é excelente profissional, maravilhosa , competente e atenta. Recomendo pois seus tratamentos são minuciosos e eficazes.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1533455"
+  },
+  {
+    "autor": "Valevisca",
+    "data": "2021-09-20",
+    "nota": 5,
+    "texto": "Excelente profissional.... recomendo ... pontual... atenciosa ... ambiente sempre limpo..tem estacionamento",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1498274"
+  },
+  {
+    "autor": "Marlan Souza",
+    "data": "2021-09-19",
+    "nota": 5,
+    "texto": "Fui muito bem atendida! Ambiente tranquilo e limpo. Assistência pós atendimento excelente. Super recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Extracao",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1496740"
+  },
+  {
+    "autor": "lilian",
+    "data": "2021-09-15",
+    "nota": 5,
+    "texto": "para a minha primeira consulta achei tudo ótimo, muito atenciosa, explicando com conhecimento técnico, me passou confiança.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1490050"
+  },
+  {
+    "autor": "Michele rebechi",
+    "data": "2021-09-01",
+    "nota": 5,
+    "texto": "Dra. Anita sempre muito dedicada. Ótima profissional. Parabéns amiga por ser tão competente. Orgulho de você!",
+    "fonte": "Doctoralia",
+    "servico": "Raspagem periodontal",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1463054"
+  },
+  {
+    "autor": "Daniela Nakamura",
+    "data": "2021-09-01",
+    "nota": 5,
+    "texto": "Dra. Anita é super atenciosa, técnica, cuidadosa e explica tudo certinho! O consultório sempre impecável também.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1462225"
+  },
+  {
+    "autor": "Francisco Cunhal",
+    "data": "2021-08-25",
+    "nota": 5,
+    "texto": "Vim de Portugal propositadamente para ser atendido pela Dra. Anita. Excelente profissional em todos os aspectos. Perfeccionista, calma, atenciosa, pontual e preocupada e justa. Explica a melhor estratégia a adoptar para a expectativa do paciente. Dra. Anita... o meu muito obrigado!\nAltamente recomendável.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1448017"
+  },
+  {
+    "autor": "Fernando",
+    "data": "2021-08-23",
+    "nota": 5,
+    "texto": "Excelente atendimento, muito atenciosa, preço muito bom, nada a reclamar, só elogios. Recomento a todos essa profissional.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1442077"
+  },
+  {
+    "autor": "Simone Fernandes",
+    "data": "2021-08-23",
+    "nota": 5,
+    "texto": "Excelente profissional, impecável no seu trabalho, no atendimento e na comunicação…… recomendo é sempre volto.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1441805"
+  },
+  {
+    "autor": "Luiz Fernando da Silva",
+    "data": "2021-08-12",
+    "nota": 5,
+    "texto": "Excelente atendimento. Adorei a consulta, foi muito atenciosa e explicou tudo em detalhes. Realmente recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1421015"
+  },
+  {
+    "autor": "Tammia",
+    "data": "2021-08-12",
+    "nota": 5,
+    "texto": "Consulta ótima. Dra. Anita é muito atenciosa e detalhista , explica tudo claramente. Sua atendente é bem atenciosa também .",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1419405"
+  },
+  {
+    "autor": "Joana Mello",
+    "data": "2021-08-11",
+    "nota": 5,
+    "texto": "Excelente profissional. Estou em tratamento e adorando. Atenciosa, pontual. Meu tratamento está sendo positivo.",
+    "fonte": "Doctoralia",
+    "servico": "Implantes dentários",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1417810"
+  },
+  {
+    "autor": "Natalia",
+    "data": "2021-07-15",
+    "nota": 5,
+    "texto": "Ambiente limpo e organizado.\nAtendimento desde a recepcionista até a Dra.Anita é impecável.\nSimplesmente a melhor dentista que já fui.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1361616"
+  },
+  {
+    "autor": "Laira",
+    "data": "2021-07-07",
+    "nota": 5,
+    "texto": "O consultório é maravilhoso, muito moderno, atendimento extremamente atencioso, foi a primeira consulta e com certeza irei novamente!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1346179"
+  },
+  {
+    "autor": "Richard Yan Pires Silva",
+    "data": "2021-06-18",
+    "nota": 5,
+    "texto": "Excelente profissional. Tem bastante paciência para explicar o que é necessário, técnica e equipamentos modernos. Recomendo a todos de olhos fechados.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1305689"
+  },
+  {
+    "autor": "Amanda r. De Sousa",
+    "data": "2021-06-08",
+    "nota": 5,
+    "texto": "Dra Anita é excelente no que faz. A limpeza nós dentes ficou ótima, sem falar em toda a explicacai que foi repassada. A tecnologia que é uilizada no consultório é pro ppadrã. Obrigada por cada detalhe e carinho",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1281563"
+  },
+  {
+    "autor": "Mario Rothfuchs",
+    "data": "2021-06-01",
+    "nota": 5,
+    "texto": "Desde o atendimento inicial até o final do procedimento tudo com muito carinho e atenção, recomendo",
+    "fonte": "Doctoralia",
+    "servico": "Outro",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1268956"
+  },
+  {
+    "autor": "Fernanda",
+    "data": "2021-05-26",
+    "nota": 5,
+    "texto": "Ótima profissional!\nAtualizada, atenciosa, cuidadosa.\nConsultório bem localizado. Ambiente agradável.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1258340"
+  },
+  {
+    "autor": "Tânia Mendes Duarte Fonseca",
+    "data": "2021-05-23",
+    "nota": 5,
+    "texto": "A Dra Anita ja faz alguns anos que cuida dos dentes do meu marido e meus. Sempre muito atenciosa, delicada e muito profissional. Em seu consultório são exigidas todas as normas de proteção para a COVID.",
+    "fonte": "Doctoralia",
+    "servico": "Implantes dentários",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1249817"
+  },
+  {
+    "autor": "Fabiana Furuta",
+    "data": "2021-05-17",
+    "nota": 5,
+    "texto": "Atendimento excelente. Sempre sou muito bem atendida, com muito profissionalismo, tudo muito bem explicado e me sinto em ótimas mãos",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1234445"
+  },
+  {
+    "autor": "Maria Luiza",
+    "data": "2021-05-13",
+    "nota": 5,
+    "texto": "Excelente profissional! Atenção total desde a marcação da consulta até o pós atendimento. Super indico!!!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1228452"
+  },
+  {
+    "autor": "Lucia Minato",
+    "data": "2021-04-29",
+    "nota": 5,
+    "texto": "Uma profissional de extrema competência, atenciosa, e simpática,recomendo,consultório e equipamentos de última geração ,vale a pena conhecer.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1198582"
+  },
+  {
+    "autor": "Adhemar",
+    "data": "2021-04-08",
+    "nota": 5,
+    "texto": "A Dra Anita é muito detalhista e é muito importante porque o paciente precisa de muita atenção e cuidado ao tratar dos dentes.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1156412"
+  },
+  {
+    "autor": "Antonio pereira oliveira filho",
+    "data": "2021-03-24",
+    "nota": 5,
+    "texto": "Excelente profissional. O consultório é muito bom bem localizado. O atendimento é nota 10. Minha dentista favorita",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1128225"
+  },
+  {
+    "autor": "Paulo domingos Pereira filho",
+    "data": "2021-03-18",
+    "nota": 5,
+    "texto": "Gosto muito da tranquilidade da Anita, acredito que ela tem visão de saúde geral e tenta passar para o paciente",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1114770"
+  },
+  {
+    "autor": "CS",
+    "data": "2021-03-12",
+    "nota": 5,
+    "texto": "Gostei muito do atendimento, bem pontual e detalhista nas explicações sobre os tratamentos e próximos passos.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1102973"
+  },
+  {
+    "autor": "Glenda",
+    "data": "2021-03-03",
+    "nota": 5,
+    "texto": "Uma ótima profissional! Me explicou com clareza o procedimento que será realizado. Obrigada e até lá !",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1084865"
+  },
+  {
+    "autor": "Yuri",
+    "data": "2021-02-23",
+    "nota": 5,
+    "texto": "Excelente, muito bom, gostei muito.\n......…......................../-.........-:/:........;/:/:2/2",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1066930"
+  },
+  {
+    "autor": "Alexandre Amorim dos Reis",
+    "data": "2021-02-18",
+    "nota": 5,
+    "texto": "Excelente profissional, muito capacitada e atenciosa, o consultório é excepcional, super recomendada.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1057554"
+  },
+  {
+    "autor": "Mariana Mussi",
+    "data": "2021-02-17",
+    "nota": 5,
+    "texto": "Excelente profissional! Passou segurança, profissionalismo e competência durante todo o procedimento.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1054238"
+  },
+  {
+    "autor": "Dante",
+    "data": "2021-02-10",
+    "nota": 5,
+    "texto": "Foi tudo ok. Gostei do consultório e das explicações técnicas. Tecnologia nota 10. Vou continuar o tratamento.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1045084"
+  },
+  {
+    "autor": "everaldo",
+    "data": "2021-01-25",
+    "nota": 5,
+    "texto": "Trabalho executado com ótima qualidade e atendimento muito bom também. Estou super satisfeito com tudo.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1016553"
+  },
+  {
+    "autor": "Juliana Reis",
+    "data": "2021-01-18",
+    "nota": 5,
+    "texto": "Minha dentista é ótima! Sempre muito atenciosa e explicativa nas consultas. Excelente atendimento!",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "1005223"
+  },
+  {
+    "autor": "Moniki",
+    "data": "2020-12-22",
+    "nota": 5,
+    "texto": "Desde a primeira consulta a Dra Anita foi diferenciado. Profissional excelente, a melhor dentista que já fui em Florianópolis",
+    "fonte": "Doctoralia",
+    "servico": "Faceta em Resina",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "977586"
+  },
+  {
+    "autor": "Neide",
+    "data": "2020-12-03",
+    "nota": 5,
+    "texto": "Ótima profissional. Vou voltar para fazer outros procedimentos. Vou recomendar seus serviços a outras pessoas.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "954222"
+  },
+  {
+    "autor": "Leandro Vieira",
+    "data": "2020-12-01",
+    "nota": 5,
+    "texto": "A Anita é excelente profissional. Demonstra total segurança nos procedimentos, além de ser agradável e honesta nas suas considerações. Recomendo totalmente!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "949652"
+  },
+  {
+    "autor": "Virginia",
+    "data": "2020-11-13",
+    "nota": 5,
+    "texto": "Dra Anita passa muita segurança e confiança nos tratamentos propostos, adorei. O consultório é lindo, moderno, ela sempre conta com o apoio de uma ajudante.",
+    "fonte": "Doctoralia",
+    "servico": "Clareamento dental caseiro",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "923754"
+  },
+  {
+    "autor": "Eduardo Lima",
+    "data": "2020-11-11",
+    "nota": 5,
+    "texto": "Muito bom!\nPrimeira consulta esclarecedora.\nTodo procedimento é detalhado com paciência e conhecimento técnico, o consultório é acolhedor e bem equipado.\nTudo indica que o tratamento será bem sucedido.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "920865"
+  },
+  {
+    "autor": "Taís Locks Lima",
+    "data": "2020-11-05",
+    "nota": 5,
+    "texto": "Dra Anita é absolutamente impecável! Competente, eficiente, objetiva. O resultado do meu tratamento ficou perfeito.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "910988"
+  },
+  {
+    "autor": "Juliana Reis",
+    "data": "2020-10-22",
+    "nota": 5,
+    "texto": "Atenciosa e explicativa durante todo o atendimento. Dá sugestões do que é necessário para uma melhor saúde bucal! Minhas consultas são sempre excelentes! Super recomendo!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "893611"
+  },
+  {
+    "autor": "Marcus Vinicius",
+    "data": "2020-10-22",
+    "nota": 5,
+    "texto": "Gostei muito do ambiente, da simpatia e profissionalismo da doutora! Atendimento foi bem feito e tudo ocorreu da forma correta.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "892995"
+  },
+  {
+    "autor": "Ecv",
+    "data": "2020-10-22",
+    "nota": 5,
+    "texto": "Excelente atendimento. Só não dormi na cadeira porque foi agendado no período da manhã. Clínica também está de parabéns.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "892315"
+  },
+  {
+    "autor": "Guilherme",
+    "data": "2020-09-25",
+    "nota": 5,
+    "texto": "Excelente trabalho. Segurança na atividade, modernidade nos equipamentos e excelente resultado. Recomendo",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "856898"
+  },
+  {
+    "autor": "Gutierre Silveira",
+    "data": "2020-09-04",
+    "nota": 5,
+    "texto": "Bastante atenciosa no tratamento e explicação, possui ainda o diferencial da auxiliar técnica estar presente em 100% no atendimento.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "826952"
+  },
+  {
+    "autor": "Daniela Kolling",
+    "data": "2020-09-04",
+    "nota": 5,
+    "texto": "Super recomendo. Atendimento ótimo! Profissional super capacitada, tira todas as dúvidas. Tem muita paciência com crianças. Nota mil!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "826610"
+  },
+  {
+    "autor": "Bárbara",
+    "data": "2020-08-26",
+    "nota": 5,
+    "texto": "Experiência muito agradável com a Dra Anita!\nMuito atenciosa, cuidadosa, precisa no diagnóstico e tratamento do problema.\nMaravilhosa!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "812539"
+  },
+  {
+    "autor": "Pablo",
+    "data": "2020-08-25",
+    "nota": 5,
+    "texto": "Explicação bem completa e detalhada de cada procedimento. Cuidado com o paciente durante o tratamento.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "808470"
+  },
+  {
+    "autor": "Juliana de Paula Souza",
+    "data": "2020-07-15",
+    "nota": 5,
+    "texto": "Profissional extremamente atenciosa, cuidadosa e detalhista na explicação dos problemas e nos tratamentos, muito atualizada nos procedimentos e pontual.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "748571"
+  },
+  {
+    "autor": "Sthephany anky",
+    "data": "2020-06-25",
+    "nota": 5,
+    "texto": "A Dra. Anita é sem dúvidas a melhor dentista que já tive. Ela é muito gentil e profissional, tira todas as dúvidas sobre os tratamentos te deixando a vontade para decidir como prosseguir. Percebe-se a honestidade dela pensando no seu bem estar, eu estou muito satisfeita.\nO consultório é lindíssimo um ambiente muito acolhedor e limpo.\nOs preços dela são ótimos também, não tenho o que reclamar. A assistente dela é ótima! Só elogios viu ! Nunca mais vou em outro dentista.",
+    "fonte": "Doctoralia",
+    "servico": "Placa de mordida para bruxismo",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "724229"
+  },
+  {
+    "autor": "E .O",
+    "data": "2020-06-25",
+    "nota": 5,
+    "texto": "Excelente dentista, muito atenciosa, mão leve e profissional. Consultorio com todos os cuidados em frente a pandemia, me senti muito seguro no tratamento. O resultado do meu tratamento estetico ficou show.",
+    "fonte": "Doctoralia",
+    "servico": "Lente de contato dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "724208"
+  },
+  {
+    "autor": "Laís",
+    "data": "2020-06-08",
+    "nota": 5,
+    "texto": "Atendo com a Dra Anita há anos! Adoro seu trabalho e atendimento. Sempre muito atenciosa. Recomendo!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "705227"
+  },
+  {
+    "autor": "Maria Helena Petry",
+    "data": "2020-06-03",
+    "nota": 5,
+    "texto": "Essa é a minha dentista preferida, calma, competente, profissional de primeira, tem uma mão bem leve. REcomendo",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "699602"
+  },
+  {
+    "autor": "I.N.",
+    "data": "2020-05-19",
+    "nota": 5,
+    "texto": "A Dra. Anita é muito atenciosa, explica todos os procedimentos que realiza e é extremamente cuidadosa, seu trabalho é sempre impecável. Troquei o dentista de uma vida inteira para seguir meu acompanhamento com ela.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "684552"
+  },
+  {
+    "autor": "Neuza",
+    "data": "2020-05-12",
+    "nota": 5,
+    "texto": "Foi ótima, atenção, amei ..\nAtendimento simples e eficaz, ambiente limpo e com todos cuidado sobre a situação atual",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "678656"
+  },
+  {
+    "autor": "Vanessa G.",
+    "data": "2020-05-05",
+    "nota": 5,
+    "texto": "Excelente profissional! Atenciosa, detalhista, consultório bem localizado, agradável e super limpo. Nota 10! Super feliz com meu tratamento estético! Perfeição!",
+    "fonte": "Doctoralia",
+    "servico": "Clareamento dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "673464"
+  },
+  {
+    "autor": "Rogério",
+    "data": "2020-05-05",
+    "nota": 5,
+    "texto": "muito competente, excelente. nunca fiz uma limpeza tão bem feita. Muito atenciosa e organizada, estou satisfeito.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "672784"
+  },
+  {
+    "autor": "Luiz",
+    "data": "2020-04-29",
+    "nota": 5,
+    "texto": "Excelente atendimento, pontualidade e explicações. Consultório organizado e agradável. Preocupação total com o bem estar do cliente.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "668935"
+  },
+  {
+    "autor": "Taís Locks Lima",
+    "data": "2020-04-27",
+    "nota": 5,
+    "texto": "Super atenciosa e muito delicada! Explicou o procedimento com muita transparência e objetividade. Adorei!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "667333"
+  },
+  {
+    "autor": "Sinara",
+    "data": "2020-04-22",
+    "nota": 5,
+    "texto": "O consultório é maravilhoso, o atendimento pontual e a Dra é muito atenciosa e paciente durante todo o procedimento... Melhor profissional. Super recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "664374"
+  },
+  {
+    "autor": "Adhemar",
+    "data": "2020-04-13",
+    "nota": 5,
+    "texto": "Excelente profissional, muito atenciosa, detalhista com os recursos mais atuais da área. Esclarece as dúvidas e explica os procedimentos.",
+    "fonte": "Doctoralia",
+    "servico": "Outro",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "658774"
+  },
+  {
+    "autor": "Massimiliano Monti",
+    "data": "2020-03-20",
+    "nota": 5,
+    "texto": "Gentileza, prontidão no atendimento, ambiente impecável e tratamento eficaz. Ótimo trabalho, obrigado doutora.",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "647674"
+  },
+  {
+    "autor": "Igor Moises nascimento",
+    "data": "2020-03-03",
+    "nota": 5,
+    "texto": "Ótimo atendimento, atendimento pontual, consultório de primeira qualidade , super indico para melhorar seu sorriso!",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "631967"
+  },
+  {
+    "autor": "Volni da Silva Junior",
+    "data": "2020-03-02",
+    "nota": 5,
+    "texto": "Excelente. Muito atenciosa e prestativa, a consulta foi como previsto e tudo ocorreu mui5o bem. Voltarei.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "630972"
+  },
+  {
+    "autor": "Jonathan Tarouco.",
+    "data": "2020-02-07",
+    "nota": 5,
+    "texto": "A Dra. Anita Nogiri é uma profissional de excelência, super inteligente, educada, tem uma comunicação assertiva e uma ótima conduta terapêutica.\nSeu consultório é moderno, informatizado e muito bonito. Ela conta com uma auxiliar super profissional e proativa. O consultório possuí estacionamento rotativo e uma boa localização. Minha experiência como cliente foi ótima. A Dra. Anita se tornou a dentista da minha família! Recomendo a todos os seus serviços. ✨",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "609669"
+  },
+  {
+    "autor": "Laís Marqueze",
+    "data": "2020-02-06",
+    "nota": 5,
+    "texto": "Minha dentista à anos! Adoro o trabalho dela! Sempre atenciosa a minha saúde bucal! Recomendo com toda certeza!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "607920"
+  },
+  {
+    "autor": "Indianara",
+    "data": "2020-02-05",
+    "nota": 5,
+    "texto": "Dr. Muito simpática e atenciosa.\nConsultório muito agradável, e com bastante tecnologia.\nSuper recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "606026"
+  },
+  {
+    "autor": "Fernando",
+    "data": "2020-01-28",
+    "nota": 5,
+    "texto": "Super técnica e atenciosa. Um exemplo a ser seguido de profissionalismo! Recomendo a todos. Na dúvida marque uma consulta. Até breve!",
+    "fonte": "Doctoralia",
+    "servico": "Consulta Odontológica",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "598072"
+  },
+  {
+    "autor": "Ângela Sollberger",
+    "data": "2020-01-28",
+    "nota": 5,
+    "texto": "Conhecia a Dra Anita pela internet ,pois não sou de Floripa. Marquei hora e fui ao seu consultório no mesmo dia da solicitação porque era uma urgência. Recebi um excelente atendimento que cumpriu com todas as minhas necessidades.",
+    "fonte": "Doctoralia",
+    "servico": "Cimentacao Provisoria",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "597581"
+  },
+  {
+    "autor": "Anna Paula Faria Buttenbender",
+    "data": "2020-01-17",
+    "nota": 5,
+    "texto": "Fui bem atendida e superou as expectativas!\nUtilizou aparelhos de alta qualidade e ambiente confortável e climatizado!",
+    "fonte": "Doctoralia",
+    "servico": "Primeira consulta Odontológica",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "593630"
+  },
+  {
+    "autor": "Luana Molinari",
+    "data": "2020-01-13",
+    "nota": 5,
+    "texto": "Sempre muito profissional, ja me atende há anos e sempre fiquei satisfeita com seu trabalho. Noto que está sempre envolvida com novos materiais e tecnologias! Sem falar que o consultório é uma graça.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "589938"
+  },
+  {
+    "autor": "Hilário S. Lima",
+    "data": "2019-11-08",
+    "nota": 5,
+    "texto": "Nossa! Um atendimento fora do comum. Eu sempre tive aquele medo da cadeira de dentista, mas com ela foi diferente: me senti confortável demais. Recomendo.",
+    "fonte": "Doctoralia",
+    "servico": "Gengivoplastia",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "541316"
+  },
+  {
+    "autor": "S.N.",
+    "data": "2019-10-21",
+    "nota": 5,
+    "texto": "Dra Anita é excepcional! Recomendo para todos seu serviço. Fiz um Canal (com outro dentista) e ela restituiu com resina o meu dente após o tratamento! Ficou maravilhoso.",
+    "fonte": "Doctoralia",
+    "servico": "Restauração dental",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "524740"
+  },
+  {
+    "autor": "Eder V.",
+    "data": "2019-10-03",
+    "nota": 5,
+    "texto": "Excelente profissional!\nAlém de cordial e pontual, a Dra. Anita se preocupa com todos os detalhes do tratamento, orientando o paciente na esolha da melhor solução.\nUma das melhores dentistas que já fui!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "507970"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-09-19",
+    "nota": 5,
+    "texto": "Profissional exemplar. Extremamente atenciosa e conhece muito da profissão! O consultório é muito bem montado.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "496234"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-09-09",
+    "nota": 5,
+    "texto": "Dra Anita é excelente profissional, competente, dedicada, pontual e muito organizada! Instalações ótimas, consultório limpo e bonito. Recomendo!",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "487295"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-08-06",
+    "nota": 5,
+    "texto": "Profissional muito competente, atenciosa, demonstra segurança ao explicar e ao executar os procedimentos.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "",
+    "id_doctoralia": "462984"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-07-26",
+    "nota": 5,
+    "texto": "Dra. Anita é uma excelente profissional, em quem confio plenamente. Maravilhosa. Atendimento perfeito, ambiente muito bonito.",
+    "fonte": "Doctoralia",
+    "servico": "Revisão",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "455520"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-07-23",
+    "nota": 5,
+    "texto": "Ela foi ótima, super cuidadosa, fez tudo com calma e o resultado foi excelente\nMe disse como cuidar dos meus dentes e de quanto em quanto tempo fazer limpeza.",
+    "fonte": "Doctoralia",
+    "servico": "Limpeza",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "452428"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-07-10",
+    "nota": 5,
+    "texto": "Excelente profissional, atenciosa e cuidadosa no atendimento, explica os procedimentos e transmite tranquilidade ao paciente.\nConsultório agradável, de fácil acesso e com estacionamento.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "",
+    "id_doctoralia": "443791"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-06-28",
+    "nota": 5,
+    "texto": "a minha experiência com Dra. Anita tem sido muito boa e recomendo ela para qualquer pessoa. Ela é uma dentista excepcional que tem me ajudado muito, não só em identificar e consertar os problemas dentais, mas também em explicar e me ajudar entender as razões de cada procedimento.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "436097"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-06-27",
+    "nota": 4,
+    "texto": "Gostei bastante do atendimento na Clínica, principalmente do tratamento dado aos meus dentes, que ganharam vida nova nas mãos da Dra Anita, profissional que recomendo sempre que alguém pede uma referência. Só tenho a agradecer. Mudou bastante meu sorriso, mudou para muito melhor.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "",
+    "id_doctoralia": "435616"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-06-27",
+    "nota": 5,
+    "texto": "Sou paciente da Dra Anita desde que ela se formou, há aproximadamente 20 anos.\nEla é uma referência pessoal e profissional: simpática, calma, delicada no atendimento e extremamente perfeccionista na execução do serviço.\nSeu consultório em Florianópolis é decorado com muito bom gosto, também é muito limpo.\nFica próximo ao Centro, tem fácil acesso e estacionamento.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "",
+    "id_doctoralia": "435418"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-06-27",
+    "nota": 5,
+    "texto": "Muito talentosa, simpática e o resultado do tratamento sempre excelente! Recomendo esta profissional em todos os aspectos",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "",
+    "id_doctoralia": "434903"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-06-26",
+    "nota": 5,
+    "texto": "Minha visita no consultório apenas foi para manutenção da higiene bocal , que não troco por nada pois a profissional é excelente no que faz inclusive no procedimento que eu realizei.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental",
+    "verificacao": "",
+    "id_doctoralia": "434500"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-06-26",
+    "nota": 5,
+    "texto": "Além de excelente profissional, é muito atenciosa, a clínica é bem localizada e muito organizada....",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "",
+    "id_doctoralia": "434439"
+  },
+  {
+    "autor": "Adhemar Valle Filho",
+    "data": "2019-05-30",
+    "nota": 5,
+    "texto": "Excelente o procedimento, clareou de maneira eficaz meus dentes. Procedimento muito simples e indolor.",
+    "fonte": "Doctoralia",
+    "servico": "Clareamento dental profissional",
+    "verificacao": "Consulta verificada",
+    "id_doctoralia": "418723"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2019-02-18",
+    "nota": 5,
+    "texto": "Meu depoimento sobre a clínica não poderia ser outro, só posso elogiar o consultório pela dedicação, profissionalismo e competência para administração das consultas. Durante meu tratamento pude esclarecer dúvidas, saber exatamente as etapas do meu tratamento e isso me deu mais confiança para acreditar na profissional Dra. Anita NogiriMakowiecky que devolveu a mim a auto-estima e tornou meus dentes saudáveis.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "",
+    "id_doctoralia": "388800"
+  },
+  {
+    "autor": "anônimo",
+    "data": "2018-10-11",
+    "nota": 5,
+    "texto": "Pontos positivos\nA doutora é uma excelente profissional, meu pai já falecido era dentista e, atualmente, só à Drª. Anita confio o tratamento dentário meu e de minha família. Não poderia recomendar melhor profissional.\nPontos de melhoria\nA meu ver absolutamente nada, ela, suas assistentes e clínicas são excepcionais.",
+    "fonte": "Doctoralia",
+    "servico": "Tratamento dentário",
+    "verificacao": "",
+    "id_doctoralia": "216502"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2018-08-09",
+    "nota": 5,
+    "texto": "Pontos positivos\nFicou lindo! Mão super leve, excelente pra quem tem trauma ou não gosta de ir ao dentista. Meu medo foi embora. Só consultarei com ela daqui pra frente. Excelente profissional!",
+    "fonte": "Doctoralia",
+    "servico": "Facetas de porcelana",
+    "verificacao": "",
+    "id_doctoralia": "217224"
+  },
+  {
+    "autor": "anônimo",
+    "data": "2018-07-21",
+    "nota": 5,
+    "texto": "Pontos positivos\nGostei do excelente atendimento quanto a explicação e atenção",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "",
+    "id_doctoralia": "291608"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2018-06-05",
+    "nota": 5,
+    "texto": "Pontos positivos\nO atendimento prestado pela Dra. Anita foi excelente, resolvendo o meu problema. Além disso, a Dra. se preocupa em explicar os detalhes do tratamento necessário.",
+    "fonte": "Doctoralia",
+    "servico": "Tratamento de canal",
+    "verificacao": "",
+    "id_doctoralia": "215569"
+  },
+  {
+    "autor": "anônimo",
+    "data": "2018-05-18",
+    "nota": 5,
+    "texto": "Pontos positivos\nA Dra Anita é muito experiente, transmite muita confiança nas informações passadas ao paciente e executa o trabalho com rapidez e perfeição.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "",
+    "id_doctoralia": "342042"
+  },
+  {
+    "autor": "paciente anônimo",
+    "data": "2018-04-03",
+    "nota": 5,
+    "texto": "Pontos positivos\nTudo perfeito",
+    "fonte": "Doctoralia",
+    "servico": "Consulta odontológica",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "241426"
+  },
+  {
+    "autor": "anônimo",
+    "data": "2018-03-16",
+    "nota": 5,
+    "texto": "Pontos positivos\nDa Dra.\nPontos de melhoria\nTudo esta otimo!",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "",
+    "id_doctoralia": "254828"
+  },
+  {
+    "autor": "Anônimo",
+    "data": "2018-02-22",
+    "nota": 5,
+    "texto": "Pontos positivos\nProfissional atenciosa e dedicada. Consultório organizado, limpo e com equipamentos de ótima qualidade. O consultório também tem boa localização e estacionamento. Recomendo a profissional. Com certeza voltarei.",
+    "fonte": "Doctoralia",
+    "servico": "",
+    "verificacao": "Opinião Verificada",
+    "id_doctoralia": "141196"
+  },
+  {
+    "autor": "paciente",
+    "data": "2017-11-30",
+    "nota": 5,
+    "texto": "Pontos positivos\nA Dra. Anita é uma excelente profissional: pontual, detalhista, o que é importantíssimo na sua área, competente, educada, querida, atenciosa, ela tem uma mão tão delicada que chego a dormir na cadeira. Melhor limpeza da vida! E depois de fazer minha faceta de porcelana passei a amar meu sorriso!",
+    "fonte": "Doctoralia",
+    "servico": "Facetas em cerâmica",
+    "verificacao": "",
+    "id_doctoralia": "252983"
+  },
+  {
+    "autor": "paciente anônimo",
+    "data": "2017-10-30",
+    "nota": 5,
+    "texto": "Pontos positivos\nUma luz que ilumina o atendimento, calma e simpatia, tudo que se procura em um profissional de saúde, excelente.\nPontos de melhoria\nNão sei, por mim, se melhorar estraga.",
+    "fonte": "Doctoralia",
+    "servico": "Profilaxia dental (limpeza)",
+    "verificacao": "",
+    "id_doctoralia": "65026"
+  }
+]

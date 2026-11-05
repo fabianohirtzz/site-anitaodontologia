@@ -5,3 +5,10 @@ node_modules/
 Thumbs.db
 *.log
 .env
+
+# imagens brutas extraídas (banco de imagem, baixa res) ficam fora do repo
+assets/original/*
+!assets/original/INVENTARIO.md
+
+# notas internas de reunião (repo é público)
+docs/ata-reuniao.md
