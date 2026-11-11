@@ -16,7 +16,7 @@ from PIL import Image  # noqa: E402
 
 ESTILO = (
     " Photorealistic editorial photography, soft natural daylight, airy and clean, cool light palette "
-    "(off-white, very light mint #eef7f8, deep teal #00565d accents), shallow depth of field, calm and premium. "
+    "(off-white, very light mint, small deep teal accents), shallow depth of field, calm and premium. "
     "No people, no faces, no hands, no teeth close-ups, no patients, no before/after. No text, no logos, no watermark. "
     "Not CGI, not glossy 3D render."
 )

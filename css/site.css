@@ -617,3 +617,14 @@ a.contato:hover{transform:translateY(-4px);box-shadow:var(--sh-2);border-color:v
 .procs,.artigo{grid-template-columns:minmax(0,1fr)}
 @media (min-width:1024px){.procs{grid-template-columns:240px minmax(0,1fr)}.artigo{grid-template-columns:minmax(0,1fr) 300px}}
 .contato__icone svg{stroke-width:7}
+/* imagem de cada procedimento: alterna o lado a cada bloco */
+.proc__intro{display:grid;gap:1.6rem}
+.proc__img{border-radius:var(--r-media);overflow:hidden;background:var(--turquesa-50);aspect-ratio:16/10;order:-1;box-shadow:var(--sh-1)}
+.proc__img img{width:100%;height:100%;object-fit:cover;transition:transform 1.2s var(--ease-out)}
+.proc:hover .proc__img img{transform:scale(1.03)}
+@media (min-width:760px){
+  .proc__intro{grid-template-columns:minmax(0,1.3fr) minmax(0,.7fr);gap:2.5rem;align-items:start}
+  .proc__img{order:0;aspect-ratio:4/5}
+  .proc:nth-child(even) .proc__intro{grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr)}
+  .proc:nth-child(even) .proc__img{order:-1}
+}
