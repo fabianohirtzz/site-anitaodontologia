@@ -160,5 +160,27 @@
     }
   }
 
+  /* ---------- índice da página de procedimentos: marca a seção visível ---------- */
+  const indice = document.querySelectorAll("[data-indice]");
+  if (indice.length && "IntersectionObserver" in window) {
+    const porId = new Map([...indice].map((a) => [a.getAttribute("href").slice(1), a]));
+    const marcar = (id) => {
+      indice.forEach((a) => a.removeAttribute("aria-current"));
+      const a = porId.get(id);
+      if (!a) return;
+      a.setAttribute("aria-current", "true");
+      // no mobile os chips rolam na horizontal: mantém o ativo visível
+      const ol = a.closest("ol");
+      if (ol && ol.scrollWidth > ol.clientWidth) ol.scrollTo({ left: a.parentElement.offsetLeft - 16, behavior: reduz ? "auto" : "smooth" });
+    };
+    const spy = new IntersectionObserver((ents) => {
+      ents.forEach((en) => { if (en.isIntersecting) marcar(en.target.id); });
+    }, { rootMargin: "-35% 0px -60% 0px" });
+    porId.forEach((_, id) => { const s = document.getElementById(id); if (s) spy.observe(s); });
+  }
+
+  /* ---------- horário: destaca o dia de hoje ---------- */
+  document.querySelectorAll(`[data-horario] [data-dia="${dia}"]`).forEach((li) => li.classList.add("is-hoje"));
+
   document.querySelectorAll("[data-ano]").forEach((el) => (el.textContent = new Date().getFullYear()));
 })();

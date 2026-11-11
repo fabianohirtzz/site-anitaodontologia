@@ -1,0 +1,56 @@
+[
+  {
+    "slug": "facetas-de-porcelana-ou-resina",
+    "titulo": "Faceta de porcelana ou de resina: diferenças e como escolher",
+    "titulo_html": "Faceta de <em>porcelana</em> ou de <em>resina</em>: diferenças e como escolher",
+    "descricao": "Entenda a diferença entre faceta de porcelana e faceta de resina: como cada uma é feita, durabilidade, cor, manutenção e para quem cada opção é indicada.",
+    "categoria": "Facetas",
+    "data": "2026-11-11",
+    "leitura": 6,
+    "capa": "assets/img/blog/facetas-porcelana-ou-resina.webp",
+    "capa_alt": "Escala de cores de porcelana odontológica sobre bancada clara, ao lado de um pote verde-água",
+    "procedimento": "facetas",
+    "faq": [
+      {"q": "Qual dura mais, faceta de porcelana ou de resina?", "a": "A faceta de porcelana costuma durar mais e manter a cor por mais tempo. A de resina é mais suscetível a manchas e desgaste, mas pode ser reparada e polida com facilidade."},
+      {"q": "Faceta de resina mancha?", "a": "Pode manchar com o tempo, principalmente com café, chá, vinho e cigarro. Consultas de polimento ajudam a manter o brilho e a cor."},
+      {"q": "Precisa desgastar o dente para colocar faceta?", "a": "Depende do caso. Muitas facetas pedem um desgaste pequeno do esmalte; algumas situações permitem desgaste mínimo ou nenhum. A avaliação define o preparo necessário."},
+      {"q": "Dá para trocar faceta de resina por porcelana depois?", "a": "Em muitos casos, sim. A resina pode ser uma etapa intermediária, e a troca por porcelana é planejada quando fizer sentido para o paciente."}
+    ]
+  },
+  {
+    "slug": "lentes-de-contato-dental",
+    "titulo": "Lentes de contato dental: o que são, indicações e cuidados",
+    "titulo_html": "Lentes de contato <em>dental</em>: o que são, indicações e cuidados",
+    "descricao": "Lentes de contato dental são facetas de cerâmica ultrafinas. Veja como funcionam, para quem são indicadas, a diferença para a faceta tradicional e os cuidados depois.",
+    "categoria": "Estética do sorriso",
+    "data": "2026-11-10",
+    "leitura": 5,
+    "capa": "assets/img/blog/lentes-de-contato-dental.webp",
+    "capa_alt": "Lâminas de cerâmica ultrafinas e translúcidas sobre um disco de vidro",
+    "procedimento": "lentes-de-contato",
+    "faq": [
+      {"q": "Lente de contato dental estraga o dente?", "a": "Não, quando bem indicada. A técnica foi criada justamente para preservar o dente, com desgaste mínimo ou nenhum. O problema aparece quando a lente é feita em casos sem indicação."},
+      {"q": "Qual a diferença entre lente de contato e faceta?", "a": "A lente é uma faceta de cerâmica bem mais fina. A faceta tradicional é um pouco mais espessa e corrige alterações maiores de cor e forma."},
+      {"q": "Quem tem bruxismo pode colocar lente de contato dental?", "a": "O bruxismo precisa ser avaliado e controlado antes, geralmente com placa de proteção noturna, porque o atrito pode danificar a cerâmica."},
+      {"q": "Como cuidar das lentes de contato dental?", "a": "Escovação e fio dental todos os dias, consultas de revisão e evitar morder objetos duros, como canetas e unhas."}
+    ]
+  },
+  {
+    "slug": "clareamento-dental-consultorio-ou-caseiro",
+    "titulo": "Clareamento dental: consultório, caseiro ou combinado?",
+    "titulo_html": "Clareamento dental: <em>consultório</em>, caseiro ou combinado?",
+    "descricao": "Compare o clareamento dental de consultório, o caseiro com moldeira e a técnica combinada. Saiba como funcionam, a sensibilidade e o que fazer para a cor durar mais.",
+    "categoria": "Clareamento",
+    "data": "2026-11-09",
+    "leitura": 5,
+    "capa": "assets/img/blog/clareamento-dental.webp",
+    "capa_alt": "Moldeira transparente de clareamento em estojo branco sobre mármore, ao lado de uma seringa sem rótulo",
+    "procedimento": "clareamento",
+    "faq": [
+      {"q": "Clareamento dental dói?", "a": "Não costuma doer, mas é comum sentir sensibilidade passageira durante o tratamento. A dentista ajusta o protocolo e pode indicar produtos para reduzir o incômodo."},
+      {"q": "Quanto tempo dura o clareamento dental?", "a": "Depende dos hábitos. Café, chá, vinho e cigarro escurecem os dentes mais rápido. Com cuidados, o resultado se mantém por bastante tempo e pode ser reforçado com aplicações de manutenção."},
+      {"q": "Clareamento funciona em faceta ou restauração?", "a": "Não. Facetas, coroas e restaurações não mudam de cor. Por isso o clareamento costuma ser feito antes desses tratamentos."},
+      {"q": "Posso fazer clareamento com produto de farmácia?", "a": "O ideal é sempre ter avaliação e acompanhamento profissional, que define a concentração do gel, o tempo de uso e identifica problemas como cáries e gengiva sensível antes de começar."}
+    ]
+  }
+]

@@ -37,9 +37,11 @@ Projeto da Freela In Home. Responder sempre em pt-BR.
 - `assets/` imagens tratadas para o site
 
 ## Estado atual
-- Fase: 3. Build. Design skill `anita-design` criada (~/.claude/skills). Home pronta (05/11)
-- Próximo: Sobre, Procedimentos, Resultados, Contato, Blog, Links. Base para apresentação até 10/11
-- Build: header/footer em `partials/` → `python tools/partials.py`; avaliações da home → `python tools/avaliacoes.py`
+- Fase: 3. Build. Layout aprovado pela Dra. (11/11). Todas as páginas prontas (11/11): home, sobre, procedimentos, resultados (placeholders até as fotos do iCloud), contato, blog (3 posts), links
+- Próximo: fotos de antes e depois em resultados.html; revisão dos artigos pela Dra.; produção (tirar noindex, robots Allow + Sitemap)
+- Build: header/footer em `partials/` → `python tools/partials.py` (também atualiza blog/<slug>/ com ../../); avaliações da home → `python tools/avaliacoes.py`
+- Blog: posts em `conteudo/blog/posts.json` + `conteudo/blog/<slug>.html` → `python tools/blog.py` (gera blog.html, posts, sitemap.xml e roda partials). Capas IA: `python -I tools/imagens/gerar.py <saida.webp> <w> <h> "<prompt>"` (Gemini, com crédito desde 05/11)
+- SEO/GEO: cada página com title/description/canonical/OG, JSON-LD (Dentist, Person, FAQPage, BreadcrumbList, BlogPosting), caixa `.resposta` (resposta direta) e `llms.txt` na raiz
 - Logo: `assets/logo/logo.svg` (vertical), `logo-horizontal.svg` (menu), `dente.svg` (elemento gráfico), versões brancas. Extraídos do .ai via PyMuPDF
 - Fotos: `assets/img/*.webp`. Upscale fiel via Fal ESRGAN (`tools/imagens/upscale.py`). Gemini e OpenAI do gerador da Vocical estão SEM crédito (05/11)
 - Obs.: repo antigo `site-anitaodontologia-travado` ficou corrompido no GitHub (503); recriado. Excluir o travado manualmente
