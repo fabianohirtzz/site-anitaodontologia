@@ -179,6 +179,42 @@
     porId.forEach((_, id) => { const s = document.getElementById(id); if (s) spy.observe(s); });
   }
 
+  /* ---------- comparador de registros: arrastar em qualquer ponto da foto ---------- */
+  document.querySelectorAll("[data-registro]").forEach((el) => {
+    const range = el.querySelector(".registro__range");
+    const pos = (v) => { v = Math.max(0, Math.min(100, v)); el.style.setProperty("--pos", v + "%"); if (range) range.value = v; };
+    const doPonteiro = (e) => { const r = el.getBoundingClientRect(); pos(((e.clientX - r.left) / r.width) * 100); };
+    el.addEventListener("pointerdown", (e) => { el.setPointerCapture(e.pointerId); el.classList.add("is-arrastando"); doPonteiro(e); });
+    el.addEventListener("pointermove", (e) => { if (el.classList.contains("is-arrastando")) doPonteiro(e); });
+    ["pointerup", "pointercancel"].forEach((t) => el.addEventListener(t, () => el.classList.remove("is-arrastando")));
+    range?.addEventListener("input", () => pos(+range.value));
+    // dica de movimento quando aparece na tela (uma vez)
+    if (!reduz && "IntersectionObserver" in window) {
+      const io2 = new IntersectionObserver(([en]) => {
+        if (!en.isIntersecting) return;
+        io2.disconnect();
+        const quadros = [50, 38, 62, 50], t0 = performance.now(), dur = 1400;
+        const passo = (t) => {
+          if (el.classList.contains("is-arrastando")) return;
+          const p = Math.min(1, (t - t0) / dur), seg = p * 3, i = Math.min(2, Math.floor(seg)), k = seg - i;
+          const suave = k < .5 ? 2 * k * k : 1 - Math.pow(-2 * k + 2, 2) / 2;
+          pos(quadros[i] + (quadros[i + 1] - quadros[i]) * suave);
+          if (p < 1) requestAnimationFrame(passo);
+        };
+        setTimeout(() => requestAnimationFrame(passo), 500);
+      }, { threshold: 0.6 });
+      io2.observe(el);
+    }
+  });
+
+  /* ---------- filtro dos casos ---------- */
+  const filtros = document.querySelectorAll("[data-filtro]");
+  filtros.forEach((b) => b.addEventListener("click", () => {
+    filtros.forEach((x) => x.setAttribute("aria-pressed", String(x === b)));
+    const cat = b.dataset.filtro;
+    document.querySelectorAll("[data-cat]").forEach((c) => { c.hidden = cat !== "todos" && c.dataset.cat !== cat; });
+  }));
+
   /* ---------- horário: destaca o dia de hoje ---------- */
   document.querySelectorAll(`[data-horario] [data-dia="${dia}"]`).forEach((li) => li.classList.add("is-hoje"));
 

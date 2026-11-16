@@ -628,3 +628,26 @@ a.contato:hover{transform:translateY(-4px);box-shadow:var(--sh-2);border-color:v
   .proc:nth-child(even) .proc__intro{grid-template-columns:minmax(0,.7fr) minmax(0,1.3fr)}
   .proc:nth-child(even) .proc__img{order:-1}
 }
+
+/* ---------- comparador de registros (sem rótulos de estado: regra Google Ads saúde) ---------- */
+.registro{--pos:50%;position:relative;aspect-ratio:4/3;border-radius:var(--r-media);overflow:hidden;background:var(--turquesa-50);cursor:ew-resize;touch-action:pan-y;user-select:none;-webkit-user-select:none;box-shadow:var(--sh-1)}
+.registro__img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;pointer-events:none}
+.registro__img--a{clip-path:inset(0 calc(100% - var(--pos)) 0 0)}
+.registro__divisor{position:absolute;top:0;bottom:0;left:var(--pos);width:2px;margin-left:-1px;background:#fff;box-shadow:0 0 12px rgba(11,42,45,.35);pointer-events:none}
+.registro__alca{position:absolute;top:50%;left:50%;width:46px;height:46px;margin:-23px 0 0 -23px;border-radius:50%;background:#fff;display:grid;place-items:center;color:var(--petroleo);box-shadow:0 0 0 3px rgba(137,198,204,.55), 0 8px 22px rgba(11,42,45,.25);transition:transform .3s var(--ease-out)}
+.registro__alca svg{width:22px;height:22px}
+.registro:hover .registro__alca,.registro.is-arrastando .registro__alca{transform:scale(1.08)}
+.registro__range{position:absolute;inset:0;width:100%;height:100%;margin:0;opacity:0;pointer-events:none}
+.registro:has(.registro__range:focus-visible){outline:2px solid var(--turquesa);outline-offset:4px}
+.registro-nota{margin-top:.9rem;font-size:.84rem;color:var(--texto-3);display:flex;gap:.5rem;align-items:center}
+.registro-nota svg{width:16px;height:16px;flex:none;color:var(--turquesa)}
+
+/* galeria de casos com filtro */
+.filtros{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:2rem}
+.filtros button{padding:.55rem 1.1rem;border-radius:var(--r-pill);border:1px solid var(--linha);background:#fff;font-weight:600;font-size:.9rem;color:var(--texto-2);transition:background .25s, color .25s, border-color .25s}
+.filtros button:hover{border-color:var(--turquesa-300);color:var(--petroleo)}
+.filtros button[aria-pressed="true"]{background:var(--petroleo);border-color:var(--petroleo);color:#fff}
+.caso[hidden]{display:none}
+.caso__cat{justify-self:start;padding:.3rem .75rem;border-radius:var(--r-pill);background:var(--turquesa-50);color:var(--petroleo);font-size:.78rem;font-weight:600}
+.pagina-topo__midia--retrato{max-width:440px;justify-self:center;width:100%}
+.pagina-topo__midia--retrato > img:not(.pagina-topo__dente){aspect-ratio:4/5;object-position:50% 30%}

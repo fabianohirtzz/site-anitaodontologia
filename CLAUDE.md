@@ -41,6 +41,9 @@ Projeto da Freela In Home. Responder sempre em pt-BR.
 - Próximo: fotos de antes e depois em resultados.html; revisão dos artigos pela Dra.; produção (tirar noindex, robots Allow + Sitemap)
 - Build: header/footer em `partials/` → `python tools/partials.py` (também atualiza blog/<slug>/ com ../../); avaliações da home → `python tools/avaliacoes.py`
 - Blog: posts em `conteudo/blog/posts.json` + `conteudo/blog/<slug>.html` → `python tools/blog.py` (gera blog.html, posts, sitemap.xml e roda partials). Capas IA: `python -I tools/imagens/gerar.py <saida.webp> <w> <h> "<prompt>"` (Gemini, com crédito desde 05/11)
+- REGRA Google Ads saúde (igual ao site do Dr. Márcio): as palavras "antes" e "depois" são PROIBIDAS em todo o conteúdo publicado (texto, títulos, alt, aria, meta, JSON-LD, comentários, classes, nomes de arquivo), inclusive em uso temporal. Usar "primeiro", "em seguida", "ao final", "prévio". Casos: "registro fotográfico 1/2", "comparar os dois registros"
+- Casos reais (16/11): `assets/img/casos/caso-NN-a.webp` / `-b.webp` (8 casos), alinhados por `tools/imagens/alinhar_casos.py`. Fotos originais do Drive em `../fotos-drive-2026-11-16/` (fora do repo). Componente `.registro` (comparador de arrastar) em resultados.html e na home
+- Fotos da Dra. (16/11): dra-anita-blazer (topo Sobre), -lupas (Sobre consultório), -planejamento (topo Resultados), -sorriso (Links e autor do blog), -mesa (reserva)
 - SEO/GEO: cada página com title/description/canonical/OG, JSON-LD (Dentist, Person, FAQPage, BreadcrumbList, BlogPosting), caixa `.resposta` (resposta direta) e `llms.txt` na raiz
 - Logo: `assets/logo/logo.svg` (vertical), `logo-horizontal.svg` (menu), `dente.svg` (elemento gráfico), versões brancas. Extraídos do .ai via PyMuPDF
 - Fotos: `assets/img/*.webp`. Upscale fiel via Fal ESRGAN (`tools/imagens/upscale.py`). Gemini e OpenAI do gerador da Vocical estão SEM crédito (05/11)

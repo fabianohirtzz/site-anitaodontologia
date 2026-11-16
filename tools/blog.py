@@ -132,7 +132,7 @@ def pagina_post(p, outros):
 
       <aside class="artigo__lado">
         <a class="autor" href="{P}sobre.html">
-          <img src="{P}assets/img/dra-anita-retrato.webp" alt="" width="60" height="60" loading="lazy">
+          <img src="{P}assets/img/dra-anita-sorriso.webp" alt="" width="60" height="60" loading="lazy">
           <div><b>Dra. Anita Nogiri</b><span>Especialista em Dentística Restauradora pela UFPR · CRO-SC 10010</span></div>
         </a>
         <div class="cta-lado">

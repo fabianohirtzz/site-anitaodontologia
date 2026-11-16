@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="robots" content="noindex, nofollow">
-<title>Antes e depois: facetas, lentes e clareamento | Dra. Anita Nogiri</title>
-<meta name="description" content="Casos reais de facetas de porcelana e de resina, lentes de contato dental e clareamento, publicados com autorização dos pacientes. Consultório no João Paulo, Florianópolis.">
+<title>Resultados reais: facetas, clareamento e restaurações | Dra. Anita Nogiri</title>
+<meta name="description" content="Casos reais de facetas, clareamento dental, restaurações estéticas e reabilitação do sorriso, publicados com autorização dos pacientes. Consultório no João Paulo, Florianópolis.">
 <link rel="canonical" href="https://anitaodontologia.com.br/resultados.html">
 <meta property="og:type" content="website">
 <meta property="og:locale" content="pt_BR">
 <meta property="og:title" content="Resultados | Dra. Anita Nogiri · Odontologia Integrada">
 <meta property="og:description" content="Sorrisos naturais, em harmonia com o rosto. Casos reais publicados com autorização.">
-<meta property="og:image" content="https://anitaodontologia.com.br/assets/img/dra-anita-retrato.webp">
+<meta property="og:image" content="https://anitaodontologia.com.br/assets/img/casos/caso-03-b.webp">
 <meta name="theme-color" content="#00565d">
 <link rel="icon" href="favicon.png" type="image/png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -28,7 +28,7 @@
       {"@type":"ListItem","position":2,"name":"Resultados","item":"https://anitaodontologia.com.br/resultados.html"}]},
     {"@type":"FAQPage","mainEntity":[
       {"@type":"Question","name":"O que é um sorriso com resultado natural?","acceptedAnswer":{"@type":"Answer","text":"É um sorriso em que os dentes têm proporção, cor e textura compatíveis com o rosto, os lábios e a gengiva da pessoa. Ele parece saudável e bonito, sem chamar mais atenção do que a própria pessoa."}},
-      {"@type":"Question","name":"Posso ver fotos de antes e depois?","acceptedAnswer":{"@type":"Answer","text":"Sim. Os casos publicados são de pacientes reais, com autorização por escrito, seguindo as normas do Conselho Federal de Odontologia. Cada caso é único e o resultado depende das condições de cada pessoa."}}]}
+      {"@type":"Question","name":"Os casos do site são de pacientes reais?","acceptedAnswer":{"@type":"Answer","text":"Sim. Os casos publicados são de pacientes reais, com autorização por escrito, seguindo as normas do Conselho Federal de Odontologia. Cada caso é único e o resultado depende das condições de cada pessoa."}}]}
   ]
 }
 </script>
@@ -118,11 +118,14 @@
       <div>
         <ol class="migalhas" aria-label="Você está em"><li><a href="index.html">Início</a></li><li><span aria-current="page">Resultados</span></li></ol>
         <h1 data-reveal>Sorrisos que continuam parecendo <em>seus</em></h1>
-        <p class="lead" data-reveal style="--i:1">Casos reais de facetas, lentes de contato dental e clareamento, publicados com autorização de cada paciente. Aqui não há fotos de banco de imagem.</p>
+        <p class="lead" data-reveal style="--i:1">Casos reais de pacientes da Dra. Anita Nogiri: facetas, clareamento, restaurações e reabilitação estética, publicados com autorização. Nenhuma foto de banco de imagem.</p>
+        <div class="resposta" data-reveal style="--i:2;margin-top:1.8rem">
+          <p><strong>Resultado natural</strong> é quando os dentes têm proporção, cor e textura compatíveis com o rosto, os lábios e a gengiva. O sorriso fica bonito e saudável, sem chamar mais atenção do que a pessoa.</p>
+        </div>
       </div>
-      <div class="resposta" data-reveal style="--i:2">
-        <p><strong>Resultado natural</strong> é quando os dentes têm proporção, cor e textura compatíveis com o rosto, os lábios e a gengiva. O sorriso fica bonito e saudável, sem chamar mais atenção do que a pessoa.</p>
-        <p>Cada caso é único: o resultado depende das condições de cada paciente e do plano feito na avaliação.</p>
+      <div class="pagina-topo__midia pagina-topo__midia--retrato" data-reveal style="--i:2">
+        <img class="pagina-topo__dente" src="assets/logo/dente.svg" alt="" width="276" height="428" data-desenho>
+        <img src="assets/img/dra-anita-planejamento.webp" alt="Dra. Anita Nogiri planejando um tratamento, com o sorriso do paciente na tela do computador" width="900" height="1600" fetchpriority="high">
       </div>
     </div>
   </section>
@@ -131,30 +134,66 @@
     <div class="container">
       <div class="cabeca cabeca--split">
         <h2 class="titulo" id="t-casos" data-reveal>Casos por <em>tratamento</em></h2>
-        <p class="lead" data-reveal style="--i:1">Os casos estão sendo selecionados com os pacientes e entram aqui em breve, organizados por tratamento.</p>
+        <p class="lead" data-reveal style="--i:1">Arraste a linha sobre cada foto para comparar os dois registros fotográficos do mesmo paciente.</p>
+      </div>
+      <div class="filtros" role="group" aria-label="Filtrar casos por tratamento" data-reveal>
+        <button type="button" data-filtro="todos" aria-pressed="true">Todos</button>
+        <button type="button" data-filtro="facetas" aria-pressed="false">Facetas</button>
+        <button type="button" data-filtro="clareamento" aria-pressed="false">Clareamento</button>
+        <button type="button" data-filtro="restauracoes" aria-pressed="false">Restaurações</button>
+        <button type="button" data-filtro="reabilitacao" aria-pressed="false">Reabilitação estética</button>
       </div>
       <div class="casos">
-        <article class="caso" data-reveal>
-          <div class="compara"><div class="compara__vazio"><svg viewBox="0 0 120 140" aria-hidden="true"><use href="assets/icons.svg#dente"/></svg><strong>Em seleção</strong>Casos publicados com autorização.</div></div>
-          <h3>Facetas de porcelana</h3>
-          <p>Correção de cor, forma e proporção com cerâmica feita em laboratório.</p>
+        <article class="caso" data-cat="facetas" data-reveal style="--i:0">
+          <div class="registro" data-registro><img class="registro__img registro__img--b" src="assets/img/casos/caso-03-b.webp" alt="Incisivos centrais superiores, registro fotográfico 2" width="1200" height="900" loading="lazy"><img class="registro__img registro__img--a" src="assets/img/casos/caso-03-a.webp" alt="Incisivos centrais superiores, registro fotográfico 1" width="1200" height="900" loading="lazy"><div class="registro__divisor" aria-hidden="true"><span class="registro__alca"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div><input class="registro__range" type="range" min="0" max="100" value="50" aria-label="Comparar os dois registros: Incisivos centrais superiores"></div>
+          <span class="caso__cat">Facetas</span>
+          <h3>Incisivos centrais escurecidos</h3>
+          <p>Dois dentes com manchas e escurecimento, agora com cor e brilho uniformes.</p>
         </article>
-        <article class="caso" data-reveal style="--i:1">
-          <div class="compara"><div class="compara__vazio"><svg viewBox="0 0 120 140" aria-hidden="true"><use href="assets/icons.svg#dente"/></svg><strong>Em seleção</strong>Casos publicados com autorização.</div></div>
-          <h3>Facetas de resina</h3>
-          <p>Ajustes de forma e fechamento de espaços feitos direto no consultório.</p>
+        <article class="caso" data-cat="facetas" data-reveal style="--i:1">
+          <div class="registro" data-registro><img class="registro__img registro__img--b" src="assets/img/casos/caso-01-b.webp" alt="Sorriso, registro fotográfico 2" width="1200" height="900" loading="lazy"><img class="registro__img registro__img--a" src="assets/img/casos/caso-01-a.webp" alt="Sorriso, registro fotográfico 1" width="1200" height="900" loading="lazy"><div class="registro__divisor" aria-hidden="true"><span class="registro__alca"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div><input class="registro__range" type="range" min="0" max="100" value="50" aria-label="Comparar os dois registros: Sorriso"></div>
+          <span class="caso__cat">Facetas</span>
+          <h3>Um dente escurecido no sorriso</h3>
+          <p>Incisivo central mais escuro que os vizinhos, harmonizado em cor e forma.</p>
         </article>
-        <article class="caso" data-reveal style="--i:2">
-          <div class="compara"><div class="compara__vazio"><svg viewBox="0 0 120 140" aria-hidden="true"><use href="assets/icons.svg#dente"/></svg><strong>Em seleção</strong>Casos publicados com autorização.</div></div>
-          <h3>Lentes de contato dental</h3>
-          <p>Lâminas ultrafinas de cerâmica, com desgaste mínimo do dente.</p>
+        <article class="caso" data-cat="facetas" data-reveal style="--i:0">
+          <div class="registro" data-registro><img class="registro__img registro__img--b" src="assets/img/casos/caso-02-b.webp" alt="Incisivos centrais em detalhe, registro fotográfico 2" width="1200" height="900" loading="lazy"><img class="registro__img registro__img--a" src="assets/img/casos/caso-02-a.webp" alt="Incisivos centrais em detalhe, registro fotográfico 1" width="1200" height="900" loading="lazy"><div class="registro__divisor" aria-hidden="true"><span class="registro__alca"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div><input class="registro__range" type="range" min="0" max="100" value="50" aria-label="Comparar os dois registros: Incisivos centrais em detalhe"></div>
+          <span class="caso__cat">Facetas</span>
+          <h3>Incisivos em detalhe</h3>
+          <p>Ajuste de cor, forma e textura dos dois incisivos centrais.</p>
         </article>
-        <article class="caso" data-reveal style="--i:3">
-          <div class="compara"><div class="compara__vazio"><svg viewBox="0 0 120 140" aria-hidden="true"><use href="assets/icons.svg#dente"/></svg><strong>Em seleção</strong>Casos publicados com autorização.</div></div>
+        <article class="caso" data-cat="facetas" data-reveal style="--i:1">
+          <div class="registro" data-registro><img class="registro__img registro__img--b" src="assets/img/casos/caso-07-b.webp" alt="Dentes anteriores superiores, registro fotográfico 2" width="1200" height="900" loading="lazy"><img class="registro__img registro__img--a" src="assets/img/casos/caso-07-a.webp" alt="Dentes anteriores superiores, registro fotográfico 1" width="1200" height="900" loading="lazy"><div class="registro__divisor" aria-hidden="true"><span class="registro__alca"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div><input class="registro__range" type="range" min="0" max="100" value="50" aria-label="Comparar os dois registros: Dentes anteriores superiores"></div>
+          <span class="caso__cat">Facetas</span>
+          <h3>Formato dos incisivos centrais</h3>
+          <p>Bordas irregulares e proporção dos dentes da frente corrigidas.</p>
+        </article>
+        <article class="caso" data-cat="clareamento" data-reveal style="--i:0">
+          <div class="registro" data-registro><img class="registro__img registro__img--b" src="assets/img/casos/caso-04-b.webp" alt="Arcadas superior e inferior, registro fotográfico 2" width="1200" height="900" loading="lazy"><img class="registro__img registro__img--a" src="assets/img/casos/caso-04-a.webp" alt="Arcadas superior e inferior, registro fotográfico 1" width="1200" height="900" loading="lazy"><div class="registro__divisor" aria-hidden="true"><span class="registro__alca"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div><input class="registro__range" type="range" min="0" max="100" value="50" aria-label="Comparar os dois registros: Arcadas superior e inferior"></div>
+          <span class="caso__cat">Clareamento</span>
           <h3>Clareamento dental</h3>
-          <p>Dentes mais claros com acompanhamento profissional, no consultório ou em casa.</p>
+          <p>Arcadas superior e inferior com cor mais clara e uniforme.</p>
+        </article>
+        <article class="caso" data-cat="restauracoes" data-reveal style="--i:1">
+          <div class="registro" data-registro><img class="registro__img registro__img--b" src="assets/img/casos/caso-05-b.webp" alt="Dentes anteriores superiores, registro fotográfico 2" width="1200" height="900" loading="lazy"><img class="registro__img registro__img--a" src="assets/img/casos/caso-05-a.webp" alt="Dentes anteriores superiores, registro fotográfico 1" width="1200" height="900" loading="lazy"><div class="registro__divisor" aria-hidden="true"><span class="registro__alca"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div><input class="registro__range" type="range" min="0" max="100" value="50" aria-label="Comparar os dois registros: Dentes anteriores superiores"></div>
+          <span class="caso__cat">Restaurações</span>
+          <h3>Bordas dos incisivos</h3>
+          <p>Pequenas fraturas na borda dos dentes reconstruídas na cor natural.</p>
+        </article>
+        <article class="caso" data-cat="restauracoes" data-reveal style="--i:0">
+          <div class="registro" data-registro><img class="registro__img registro__img--b" src="assets/img/casos/caso-06-b.webp" alt="Face interna dos dentes superiores, registro fotográfico 2" width="1200" height="900" loading="lazy"><img class="registro__img registro__img--a" src="assets/img/casos/caso-06-a.webp" alt="Face interna dos dentes superiores, registro fotográfico 1" width="1200" height="900" loading="lazy"><div class="registro__divisor" aria-hidden="true"><span class="registro__alca"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div><input class="registro__range" type="range" min="0" max="100" value="50" aria-label="Comparar os dois registros: Face interna dos dentes superiores"></div>
+          <span class="caso__cat">Restaurações</span>
+          <h3>Manchas na face interna</h3>
+          <p>Lesões escuras na face interna dos incisivos tratadas com restaurações na cor do dente.</p>
+        </article>
+        <article class="caso" data-cat="reabilitacao" data-reveal style="--i:1">
+          <div class="registro" data-registro><img class="registro__img registro__img--b" src="assets/img/casos/caso-08-b.webp" alt="Dentes anteriores superiores e inferiores, registro fotográfico 2" width="1200" height="900" loading="lazy"><img class="registro__img registro__img--a" src="assets/img/casos/caso-08-a.webp" alt="Dentes anteriores superiores e inferiores, registro fotográfico 1" width="1200" height="900" loading="lazy"><div class="registro__divisor" aria-hidden="true"><span class="registro__alca"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M9 6l-6 6 6 6M15 6l6 6-6 6"/></svg></span></div><input class="registro__range" type="range" min="0" max="100" value="50" aria-label="Comparar os dois registros: Dentes anteriores superiores e inferiores"></div>
+          <span class="caso__cat">Reabilitação estética</span>
+          <h3>Coroas e dentes anteriores</h3>
+          <p>Coroas antigas substituídas e dentes da frente harmonizados em cor e forma.</p>
         </article>
       </div>
+      <p class="registro-nota"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M12 3l7 3v5c0 5-3 8-7 10-4-2-7-5-7-10V6z"/></svg>Casos reais de pacientes do consultório, publicados com autorização. Cada caso é único e o resultado depende das condições de cada pessoa.</p>
     </div>
   </section>
 
@@ -194,7 +233,7 @@
         <svg class="faixa__traco traco-anim" viewBox="0 0 120 140" fill="none" stroke="currentColor" stroke-linecap="round" aria-hidden="true"><path pathLength="1" d="M58 30C47 16 27 10 17 22 7 34 15 50 23 64c8 14-1 32-3 48-2 12 2 20 8 24M64 25c12-11 33-15 40 1 6 16-7 32-9 46-2 14 6 32 4 46-1 8-4 14-8 18"/></svg>
         <div>
           <h2>Quer entender o que é possível no <em>seu</em> caso?</h2>
-          <p>Na avaliação, a Dra. Anita mostra as alternativas para o seu sorriso e explica cada etapa antes de começar.</p>
+          <p>Na avaliação, a Dra. Anita mostra as alternativas para o seu sorriso e explica cada etapa com calma.</p>
         </div>
         <a class="btn btn--branco" data-wa href="https://wa.me/5548991450038?text=Ol%C3%A1%2C%20Dra.%20Anita!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o." target="_blank" rel="noopener"><svg aria-hidden="true"><use href="assets/icons.svg#wa"/></svg><span>Agendar pelo WhatsApp</span></a>
       </div>
