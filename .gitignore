@@ -13,3 +13,4 @@ assets/original/*
 # notas internas de reunião (repo é público)
 docs/ata-reuniao.md
 assets/ia/
+__pycache__/
