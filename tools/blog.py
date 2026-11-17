@@ -156,6 +156,7 @@ def pagina_post(p, outros):
 <!-- FOOTER:START -->
 <!-- FOOTER:END -->
 
+<script src="{P}js/rastreio.js" defer></script>
 <script src="{P}js/site.js" defer></script>
 </body>
 </html>
