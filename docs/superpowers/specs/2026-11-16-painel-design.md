@@ -42,9 +42,9 @@ Decisões do Fabiano nesta conversa:
 
 - **HostGator compartilhada**: PHP, sem Node e sem processo contínuo. Tarefas agendadas pelo cron do cPanel. Webhook da Meta precisa de HTTPS no domínio.
 - **Site estático** (HTML gerado por `tools/*.py`), repositório público `fabianohirtzz/site-anitaodontologia`. Nada de segredo ou dado de paciente no repositório.
-- **Supabase compartilhado** entre clientes (PO usa `po_`, Márcio usa `mt_`): tabelas da Dra. Anita com prefixo **`an_`**.
+- **Supabase: projeto do HD360** (`euzmbswywwhmicjlszqw`), o compartilhado entre clientes de baixo volume de dados (decisão do Fabiano, 17/11). Tabelas da Dra. Anita com prefixo **`an_`**.
 - **Meta**: conexão em modo de convivência (o app WhatsApp Business continua no celular), via app Tech Provider da Freela, como em `po/conectar-numero.php`. Verificação leva de alguns dias a duas semanas. Mensagem fora da janela de 24h só com **modelo aprovado** e é cobrada (aprox. R$ 0,31 por contato na campanha da base antiga, centavos no pedido de avaliação).
-- **LGPD**: telefone e nome do paciente ficam no Supabase com RLS; acesso só autenticado.
+- **LGPD**: telefone e nome do paciente ficam no Supabase com RLS. Como o projeto é compartilhado, "autenticado" não basta: toda tabela `an_*` tem política que exige o usuário estar em `an_usuarios` (`exists (select 1 from an_usuarios where user_id = auth.uid())`). Nenhuma política `using (true)` em tabela `an_`. Um login de outro cliente no mesmo projeto não lê nada da Dra. Teste obrigatório: logar com usuário que não é da Dra. e confirmar zero linhas.
 - **Risco herdado**: o robô da PO **nunca rodou com cliente real** (cron não cadastrado, webhook não inscrito, fluxos desligados; `po/CLAUDE.md:1673-1676`). O código tem ~94 testes, mas a primeira operação real será a da Dra. Anita ou a da PO, o que vier primeiro.
 
 ## 4. Abordagens consideradas
@@ -119,7 +119,7 @@ Os da PO (`po/painel/app.js:517-558`), ajustados: leads por origem, conversão p
 
 ## 11. Fases (decisão do Fabiano, 16/11: "fazer todo o painel, gerando as telas, depois ligamos tudo")
 
-1. **Virada do site para a HostGator, antes de 05/12** (confirmado pelo Fabiano): site novo no domínio anitaodontologia.com.br, troca combinada com o Guilherme, `noindex` retirado, `robots.txt` liberado com sitemap, projeto Supabase criado, `an_cliques` + `clique.php` + código de referência no texto do WhatsApp e conversão do Google Ads. Assim o tráfego começa medido.
+1. **Virada do site para a HostGator, antes de 05/12** (confirmado pelo Fabiano): site novo no domínio anitaodontologia.com.br, troca combinada com o Guilherme, `noindex` retirado, `robots.txt` liberado com sitemap, tabelas `an_` criadas no Supabase do HD360, `an_cliques` + `clique.php` + código de referência no texto do WhatsApp e conversão do Google Ads. Assim o tráfego começa medido.
 2. **Painel completo, telas primeiro**: todas as telas (Leads, Funil, Conversa, Relatórios, Investimento, Fluxo do robô, Modelos, Transmissão, Avaliações com moderação, Casos, Blog, Pacientes atuais) construídas sobre as tabelas `an_*` com dados de exemplo, navegáveis e aprovadas pela Dra. antes da integração.
 3. **Ligar tudo**: webhook e motor do robô com os textos da Dra., ficha, atalhos, perdido por inatividade, modelos aprovados na Meta, pedido de avaliação D+1, importação noturna de avaliações, workflow de publicação, campanha da base antiga, cron conferido em produção.
 
@@ -136,11 +136,11 @@ O robô **não atende quem já é paciente**. O Fabiano levanta a lista de pacie
 
 ## 12b. Decisões do Claude após a revisão (conferir)
 
-- **Supabase separado** só para a Dra. Anita (não o projeto compartilhado de PO e Márcio). Motivo: as políticas da PO são `to authenticated using (true)`; no projeto compartilhado, qualquer login de outro cliente leria pacientes dela (dado de saúde, LGPD). Também facilita a entrega do sistema a ela depois de 12 meses. Se o plano gratuito da conta da Freela não comportar mais um projeto, alternativa: continuar no compartilhado com tabela `an_usuarios` e políticas por `auth.uid()`.
+- ~~Supabase separado~~: **revogado pelo Fabiano (17/11)**. Fica no projeto compartilhado do HD360, com o isolamento por `an_usuarios` descrito em Restrições (LGPD). As políticas copiadas da PO (`to authenticated using (true)`) **não** podem vir junto: todas reescritas.
 - **Silêncio do robô**: calado enquanto a conversa estiver com a equipe; volta a responder depois de 7 dias sem mensagem humana. Um contato que escreve de novo depois de 90 dias sem lead aberto vira **novo atendimento** (novo lead ligado ao mesmo telefone), para o funil e o retorno contarem cada tratamento. Atalhos `#marcada`, `#feita`, `#fechou` funcionam mesmo com o robô calado (como na PO).
 - **Avaliações aprovadas publicam sozinhas**: a importação noturna dispara o workflow de publicação só quando algo mudou. O marquee da home passa a ter as curadas mais as 6 aprovadas mais recentes; notas e totais se atualizam. Moderação (abaixo de 4) continua manual.
 - **Doctoralia**: leitura da página pública uma vez por dia, baixo volume. Se falhar ou for bloqueada, o painel avisa e as novas entram à mão (tela de cadastro).
-- **Google**: chave da Places API no projeto Google Cloud da Freela (uso dentro do crédito mensal gratuito). A conversão "Clique no WhatsApp" no Google Ads é criada pela Freela (gestão do Ads é do plano mensal) antes de 05/12.
+- **Google**: chave da Places API no projeto Google Cloud da Freela (uso dentro do crédito mensal gratuito). **Google Ads na conta da Dra., com e-mail dela** (decisão do Fabiano, 17/11); a Freela gerencia como acesso de gestor e cria nela a conversão "Clique no WhatsApp" antes de 05/12.
 
 ## 13. O que fica para o construtor
 
@@ -154,4 +154,6 @@ Nomes de arquivos e colunas; como dividir o JS do painel; se o código de refer�
 4. Perguntas frequentes do WhatsApp e valor da consulta.
 5. Lista de pacientes atuais exportada do sistema do consultório (Fabiano levanta): base do "já paciente" e da campanha de avaliação.
 
-Do lado da Freela: projeto Supabase novo, chave da Places API, conversão "Clique no WhatsApp" no Google Ads, combinar a virada com o Guilherme.
+6. Conta do Google Ads criada com o e-mail da Dra. (com acesso de gestão para a Freela).
+
+Do lado da Freela: tabelas `an_` no Supabase do HD360, chave da Places API, conversão "Clique no WhatsApp" na conta de Ads da Dra., combinar a virada com o Guilherme.
