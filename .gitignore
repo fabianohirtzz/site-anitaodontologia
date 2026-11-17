@@ -14,3 +14,6 @@ assets/original/*
 docs/ata-reuniao.md
 assets/ia/
 __pycache__/
+
+# segredos do servidor (HostGator)
+config.local.php
