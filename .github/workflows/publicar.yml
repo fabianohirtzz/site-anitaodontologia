@@ -1,0 +1,73 @@
+name: Publicar na HostGator
+
+# Só disparo manual até o dia da virada. O gatilho de push em main entra
+# depois que o site novo estiver no ar (docs/virada-hostgator.md).
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+
+concurrency:
+  group: publicar
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      # Falhar alto: sem estes secrets o FTP subiria para lugar nenhum.
+      - name: Conferir secrets
+        env:
+          FTP_SERVER: ${{ secrets.FTP_SERVER }}
+          FTP_USERNAME: ${{ secrets.FTP_USERNAME }}
+          FTP_PASSWORD: ${{ secrets.FTP_PASSWORD }}
+          FTP_SERVER_DIR: ${{ secrets.FTP_SERVER_DIR }}
+        run: |
+          for v in FTP_SERVER FTP_USERNAME FTP_PASSWORD FTP_SERVER_DIR; do
+            if [ -z "${!v:-}" ]; then echo "::error::Secret $v ausente"; exit 1; fi
+          done
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Testes de produção
+        run: python -m unittest tests/test_producao.py
+
+      # O repositório guarda noindex (GitHub Pages é prévia). Só a cópia
+      # que vai para a HostGator é liberada para o Google.
+      - name: Preparar cópia de produção
+        run: python tools/producao.py .
+
+      - name: Publicar por FTPS
+        uses: SamKirkland/FTP-Deploy-Action@v4.3.5
+        with:
+          server: ${{ secrets.FTP_SERVER }}
+          username: ${{ secrets.FTP_USERNAME }}
+          password: ${{ secrets.FTP_PASSWORD }}
+          server-dir: ${{ secrets.FTP_SERVER_DIR }}
+          # FTP_SERVER deve ser o hostname do servidor coberto pelo
+          # certificado, para a verificação estrita passar.
+          protocol: ftps
+          security: strict
+          timeout: 60000
+          local-dir: ./
+          exclude: |
+            **/.git*
+            **/.git*/**
+            **/.github/**
+            **/node_modules/**
+            **/.superpowers/**
+            docs/**
+            tools/**
+            tests/**
+            supabase/**
+            conteudo/**
+            data/**
+            partials/**
+            assets/original/**
+            **/*.md
+            config.local.example.php
