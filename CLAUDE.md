@@ -38,7 +38,10 @@ Projeto da Freela In Home. Responder sempre em pt-BR.
 
 ## Estado atual
 - Fase: 3. Build. Layout aprovado pela Dra. (11/11). Todas as páginas prontas (11/11): home, sobre, procedimentos, resultados (placeholders até as fotos do iCloud), contato, blog (3 posts), links
-- Próximo: fotos de antes e depois em resultados.html; revisão dos artigos pela Dra.; produção (tirar noindex, robots Allow + Sitemap)
+- Próximo: Task 6 da Fase 1 (virada na HostGator, roteiro em `docs/superpowers/plans/2026-11-17-fase1-virada-e-rastreio.md`), depende do acesso HostGator (Guilherme) e da conta Google Ads da Dra.; depois plano da Fase 2 (telas do painel). Revisão dos artigos pela Dra.
+- Painel: spec `docs/superpowers/specs/2026-11-16-painel-design.md`. Supabase = projeto compartilhado do HD360 (`euzmbswywwhmicjlszqw`), tabelas `an_*` isoladas por `an_usuarios` (teste: `supabase/tests/isolamento.sql`). Google Ads na conta da Dra.
+- Rastreio (17/11): `js/rastreio.js` põe "(ref. NNNNN)" no texto do WhatsApp e avisa `clique.php` → `an_cliques` com origem. Segredos só em `config.local.php` no servidor (modelo: `config.local.example.php`). Testes: `php tests/run.php` e `python -m unittest tests/test_producao.py`
+- Produção: o repo mantém noindex (GitHub Pages = prévia); `.github/workflows/publicar.yml` (manual) roda `tools/producao.py` na cópia e sobe por FTPS. `.htaccess` com 301 do site antigo (PHP: /sobre, /procedimentos, /galeria/*, /contato, /agende)
 - Build: header/footer em `partials/` → `python tools/partials.py` (também atualiza blog/<slug>/ com ../../); avaliações da home → `python tools/avaliacoes.py`
 - Blog: posts em `conteudo/blog/posts.json` + `conteudo/blog/<slug>.html` → `python tools/blog.py` (gera blog.html, posts, sitemap.xml e roda partials). Capas IA: `python -I tools/imagens/gerar.py <saida.webp> <w> <h> "<prompt>"` (Gemini, com crédito desde 05/11)
 - REGRA Google Ads saúde (igual ao site do Dr. Márcio): as palavras "antes" e "depois" são PROIBIDAS em todo o conteúdo publicado (texto, títulos, alt, aria, meta, JSON-LD, comentários, classes, nomes de arquivo), inclusive em uso temporal. Usar "primeiro", "em seguida", "ao final", "prévio". Casos: "registro fotográfico 1/2", "comparar os dois registros"
