@@ -56,6 +56,21 @@ function an_db_insert($tabela, array $linha) {
     return true;
 }
 
+/* Chave do limite: HMAC do IP com um segredo do servidor. Sem o segredo,
+   o nome do arquivo não volta a ser o IP (um sha1 de IPv4 se reverte por
+   força bruta em segundos). */
+function an_chave_limite($ip, $segredo) {
+    return hash_hmac('sha256', 'an-clique|' . $ip, $segredo);
+}
+
+/* Apaga arquivos de limite parados há mais de $idade_s segundos. */
+function an_limite_limpa($dir, $idade_s) {
+    $corte = time() - $idade_s;
+    foreach (glob($dir . '/*') ?: [] as $f) {
+        if (is_file($f) && filemtime($f) < $corte) @unlink($f);
+    }
+}
+
 /* Janela fixa por arquivo: no máximo $max chamadas a cada $janela_s
    segundos para a mesma chave. A chave já chega como hash (nada de IP
    em claro no disco). */

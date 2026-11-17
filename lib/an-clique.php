@@ -36,6 +36,8 @@ function an_clique_valida(array $e) {
         'utm_campaign'  => an_campo($e['utm_campaign'] ?? null, 300),
         'utm_term'      => an_campo($e['utm_term'] ?? null, 300),
         'gclid'         => an_campo($e['gclid'] ?? null, 300),
+        'gbraid'        => an_campo($e['gbraid'] ?? null, 300),
+        'wbraid'        => an_campo($e['wbraid'] ?? null, 300),
         'referrer_host' => $host,
         'texto'         => an_campo($e['texto'] ?? null, 500),
     ];

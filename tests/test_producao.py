@@ -53,6 +53,20 @@ class Producao(unittest.TestCase):
         self.assertEqual(alterados, [])
         self.assertEqual(estado1, {p: p.read_bytes() for p in self.d.rglob("*") if p.is_file()})
 
+    def test_variante_autofechada_tambem_sai(self):
+        (self.d / "sobre.html").write_text(PAG.format(meta='<meta name="robots" content="noindex" />'), encoding="utf-8")
+        producao.prepara(self.d)
+        self.assertNotIn("noindex", self.ler("sobre.html"))
+
+    def test_sobra_de_noindex_e_denunciada(self):
+        (self.d / "estranha.html").write_text(PAG.format(meta="<meta content='noindex' name='robots'>"), encoding="utf-8")
+        producao.prepara(self.d)
+        self.assertEqual(producao.sobras(self.d), ["estranha.html"])
+
+    def test_sem_sobras_na_copia_limpa(self):
+        producao.prepara(self.d)
+        self.assertEqual(producao.sobras(self.d), [])
+
 
 if __name__ == "__main__":
     unittest.main()

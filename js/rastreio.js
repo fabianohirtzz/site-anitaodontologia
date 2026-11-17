@@ -10,7 +10,7 @@
 
   var CHAVE = "an_origem";
   var VALIDADE = 90 * 864e5;
-  var CAMPOS = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "gclid"];
+  var CAMPOS = ["utm_source", "utm_medium", "utm_campaign", "utm_term", "gclid", "gbraid", "wbraid"];
   var SITE = "anitaodontologia.com.br";
 
   var R = {

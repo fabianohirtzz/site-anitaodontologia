@@ -14,8 +14,14 @@ if (($_SERVER['REQUEST_METHOD'] ?? '') !== 'POST') {
     exit;
 }
 
+/* Pasta do limite fora do public_html (home da conta), não no /tmp
+   compartilhado do servidor. Limpeza ocasional de arquivos com mais de 1 h. */
+$cfg = an_config();
+$dir_limite = dirname(__DIR__) . '/tmp/an-limite';
+if (mt_rand(1, 50) === 1) an_limite_limpa($dir_limite, 3600);
 $ip = $_SERVER['REMOTE_ADDR'] ?? '';
-if (!an_limite_ok(sha1('an-clique|' . $ip), 30, 60, sys_get_temp_dir() . '/an-limite')) {
+$chave = an_chave_limite($ip, ($cfg['SUPABASE_SERVICE_KEY'] ?? '') . '|limite');
+if (!an_limite_ok($chave, 30, 60, $dir_limite)) {
     http_response_code(429);
     exit;
 }

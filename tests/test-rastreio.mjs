@@ -102,3 +102,10 @@ test('sem endpoint (GitHub Pages) nao envia nada', () => {
   R.aoClicar({ target: { closest: () => ({ href: WA }) } });
   assert.equal(enviados.length, 0);
 });
+
+test('guarda gbraid e wbraid do anuncio no iPhone', () => {
+  const R = carrega();
+  const o = R.capturaOrigem('https://anitaodontologia.com.br/?gbraid=G&wbraid=W', 'https://www.google.com/', T, null);
+  assert.equal(o.gbraid, 'G');
+  assert.equal(o.wbraid, 'W');
+});

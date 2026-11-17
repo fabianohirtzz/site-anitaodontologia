@@ -29,6 +29,10 @@ $l = an_clique_valida(['ref' => '12345', 'pagina' => '/', 'utm_campaign' => str_
 ok(mb_strlen($l['utm_campaign']) === 300, 'campo texto truncado em 300');
 ok(mb_strlen($l['texto']) === 500, 'texto truncado em 500');
 
+$l = an_clique_valida(['ref' => '12345', 'pagina' => '/', 'gbraid' => 'gb1', 'wbraid' => 'wb1']);
+ok(($l['gbraid'] ?? '') === 'gb1' && ($l['wbraid'] ?? '') === 'wb1', 'gbraid e wbraid vao para a linha');
+ok(($l['origem'] ?? '') === 'google_ads', 'gbraid conta como anuncio');
+
 // --- gravação ---
 $chamadas = [];
 an_db_set_transport(function ($metodo, $url, $corpo, $headers) use (&$chamadas) {
@@ -57,6 +61,18 @@ for ($i = 0; $i < 30; $i++) if (an_limite_ok($chave, 30, 60, $dir)) $passaram++;
 ok($passaram === 30, '30 chamadas passam');
 ok(an_limite_ok($chave, 30, 60, $dir) === false, '31a na mesma janela barrada');
 ok(an_limite_ok(sha1('198.51.100.1'), 30, 60, $dir) === true, 'outro IP nao e afetado');
+// chave do limite: HMAC com segredo, nunca sha1 do IP puro
+$k1 = an_chave_limite('203.0.113.9', 'segredo-a');
+ok($k1 !== sha1('an-clique|203.0.113.9') && $k1 !== sha1('203.0.113.9'), 'chave nao e hash simples do IP');
+ok($k1 !== an_chave_limite('203.0.113.9', 'segredo-b'), 'chave depende do segredo');
+ok($k1 === an_chave_limite('203.0.113.9', 'segredo-a'), 'chave estavel');
+
+// limpeza: arquivos com mais de 1 hora somem
+touch("$dir/velho", time() - 7200);
+touch("$dir/novo", time());
+an_limite_limpa($dir, 3600);
+ok(!is_file("$dir/velho") && is_file("$dir/novo"), 'limpeza apaga so os antigos');
+
 array_map('unlink', glob("$dir/*") ?: []);
 @rmdir($dir);
 

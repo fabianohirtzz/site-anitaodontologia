@@ -13,7 +13,8 @@ ErrorDocument 404 /404.html
   RewriteRule ^ https://anitaodontologia.com.br%{REQUEST_URI} [R=301,L]
 
   # Arquivos internos nunca servidos pela web.
-  RewriteRule ^(lib|tests|tools|supabase|docs|partials|conteudo|data)(/|$) - [F,L]
+  RewriteRule ^(lib|tests|tools|supabase|docs|partials|conteudo|data|tmp|_antigo)(/|$) - [F,L]
+  RewriteRule ^\.ftp-deploy - [F,L]
   RewriteRule (^|/)config\.local(\.example)?\.php$ - [F,L]
   RewriteRule \.(md|py|sql|mjs)$ - [F,L]
 </IfModule>

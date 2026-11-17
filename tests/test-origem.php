@@ -25,4 +25,7 @@ confere('navegacao interna', 'direto', ['referrer_host' => 'anitaodontologia.com
 confere('vazio', 'direto', []);
 confere('gclid vence instagram', 'google_ads', ['gclid' => 'x', 'referrer_host' => 'l.instagram.com']);
 
+confere('gbraid (iOS)', 'google_ads', ['gbraid' => 'x', 'referrer_host' => 'www.google.com']);
+confere('wbraid', 'google_ads', ['wbraid' => 'x']);
+
 exit($falhas ? 1 : 0);

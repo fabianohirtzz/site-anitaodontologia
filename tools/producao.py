@@ -12,7 +12,9 @@ import re
 import sys
 
 MANTER_NOINDEX = {"links.html", "404.html"}
-META = re.compile(r'[ \t]*<meta name="robots" content="noindex[^"]*">\r?\n?')
+META = re.compile(r'[ \t]*<meta name="robots" content="noindex[^"]*"\s*/?>\r?\n?')
+# Qualquer meta com noindex, em qualquer ordem de atributos ou aspas.
+SOBRA = re.compile(r"<meta\b[^>]*\bnoindex\b[^>]*>", re.I)
 ROBOTS = (
     "User-agent: *\n"
     "Allow: /\n"
@@ -40,8 +42,22 @@ def prepara(pasta) -> list[str]:
     return alterados
 
 
+def sobras(pasta) -> list[str]:
+    """Páginas que ainda têm noindex fora das exceções (formato inesperado)."""
+    pasta = pathlib.Path(pasta)
+    return [
+        p.relative_to(pasta).as_posix()
+        for p in sorted(pasta.rglob("*.html"))
+        if p.relative_to(pasta).as_posix() not in MANTER_NOINDEX
+        and SOBRA.search(p.read_text(encoding="utf-8"))
+    ]
+
+
 if __name__ == "__main__":
     if len(sys.argv) != 2:
         sys.exit("uso: python tools/producao.py <pasta>")
     for a in prepara(sys.argv[1]):
         print("produção:", a)
+    resto = sobras(sys.argv[1])
+    if resto:
+        sys.exit("noindex ainda presente em: " + ", ".join(resto))

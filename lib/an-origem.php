@@ -21,7 +21,8 @@ function an_origem(array $d) {
     $host   = strtolower(trim($d['referrer_host'] ?? ''));
     $pagina = $d['pagina'] ?? '';
 
-    if ($gclid !== '') return 'google_ads';
+    // gbraid/wbraid: o Google Ads usa no iOS no lugar do gclid.
+    if ($gclid !== '' || trim($d['gbraid'] ?? '') !== '' || trim($d['wbraid'] ?? '') !== '') return 'google_ads';
     if ($src === 'google' && in_array($medium, ['cpc', 'ppc', 'paid', 'paidsearch'], true)) return 'google_ads';
 
     if ($src === 'google') return 'google_organico';
