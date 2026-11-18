@@ -665,3 +665,5 @@ a.contato:hover{transform:translateY(-4px);box-shadow:var(--sh-2);border-color:v
 .assinatura-dra b{font:400 italic 1.35rem/1.2 var(--f-display);color:var(--petroleo)}
 .assinatura-dra span{font-size:.85rem;color:var(--texto-3)}
 .titulo--frase{font-size:clamp(1.9rem,1.4rem + 1.7vw,2.8rem);max-width:22ch;line-height:1.12}
+.sobre__midia .sobre__img--lupas{object-position:42% 50%}
+@media (max-width:600px){.sobre__selo{position:relative;left:auto;top:auto;margin:-3.5rem 0 0 .8rem;max-width:240px}}
